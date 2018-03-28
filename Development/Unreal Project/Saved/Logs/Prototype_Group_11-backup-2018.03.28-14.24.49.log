@@ -1,0 +1,527 @@
+﻿Log file open, 03/18/18 15:07:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Prototype_Group_11
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-11375876) SRandInit(-11375876).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.447446
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.18-15.07.18:697][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.18-15.07.18:697][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.18-15.07.18:763][  0]LogInit: Computer: TYLER-PC
+[2018.03.18-15.07.18:764][  0]LogInit: User: Tyler
+[2018.03.18-15.07.18:764][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.18-15.07.18:764][  0]LogInit: High frequency timer resolution =3.418049 MHz
+[2018.03.18-15.07.18:764][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.03.18-15.07.18:764][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.18-15.07.18:764][  0]LogMemory: Process Physical Memory: 278.84 MB used, 278.84 MB peak
+[2018.03.18-15.07.18:764][  0]LogMemory: Process Virtual Memory: 282.32 MB used, 282.32 MB peak
+[2018.03.18-15.07.18:764][  0]LogMemory: Physical Memory: 3146.41 MB used,  897.91 MB free, 4044.32 MB total
+[2018.03.18-15.07.18:764][  0]LogMemory: Virtual Memory: 710.12 MB used,  897.91 MB free, 134217728.00 MB total
+[2018.03.18-15.07.19:494][  0]LogInit: Using OS detected language (en-GB).
+[2018.03.18-15.07.19:494][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.18-15.07.19:610][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.03.18-15.07.24:896][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.18-15.07.24:984][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2018.03.18-15.07.24:984][  0]LogD3D11RHI:       4053/0/2022 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.18-15.07.24:988][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.18-15.07.24:988][  0]LogD3D11RHI:       0/0/2022 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.18-15.07.24:988][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.18-15.07.25:004][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.18-15.07.25:004][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.18-15.07.25:004][  0]LogWindows: EnumDisplayDevices:
+[2018.03.18-15.07.25:005][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2018.03.18-15.07.25:005][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.03.18-15.07.25:005][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.03.18-15.07.25:006][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.03.18-15.07.25:006][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.18-15.07.25:006][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2018.03.18-15.07.25:006][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.18-15.07.25:006][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.18-15.07.25:007][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.18-15.07.25:060][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.18-15.07.25:121][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.18-15.07.25:177][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Intermediate/Shaders/WorkingDirectory/13500/).
+[2018.03.18-15.07.25:177][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tyler/AppData/Local/Temp/UnrealShaderWorkingDir/86A264D54B20EEA8AD3CD090CA7C906D/'.
+[2018.03.18-15.07.25:178][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.18-15.07.29:195][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.18-15.07.29:308][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.18-15.07.29:427][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.18-15.07.29:540][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.18-15.07.29:656][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.18-15.07.29:772][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.18-15.07.29:889][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.18-15.07.29:997][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.18-15.07.30:101][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.18-15.07.30:214][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.18-15.07.30:326][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.18-15.07.30:430][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.18-15.07.30:541][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.18-15.07.30:646][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.18-15.07.30:757][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.18-15.07.30:980][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.18-15.07.30:980][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.18-15.07.31:068][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.18-15.07.31:274][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.18-15.07.31:353][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.18-15.07.31:483][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.18-15.07.31:609][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.18-15.07.31:711][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.18-15.07.31:834][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.18-15.07.31:834][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.18-15.07.33:072][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.18-15.07.33:843][  0]LogDerivedDataCache: Loaded boot cache 0.77s 93MB C:/Users/Tyler/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.18-15.07.33:844][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tyler/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.18-15.07.33:844][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.18-15.07.33:844][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.18-15.07.33:844][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.18-15.07.33:844][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.18-15.07.33:895][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.18-15.07.33:910][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tyler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.18-15.07.33:945][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.18-15.07.33:956][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.18-15.07.33:984][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.18-15.07.33:984][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.18-15.07.35:531][  0]LogAssetRegistry: FAssetRegistry took 0.0350 seconds to start up
+[2018.03.18-15.07.35:876][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.18-15.07.36:797][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.18-15.07.37:707][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.18-15.07.37:843][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.18-15.07.37:844][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.18-15.07.37:844][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.18-15.07.37:844][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.18-15.07.37:844][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.18-15.07.39:533][  0]LogNetVersion: Prototype_Group_11 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3139247147)
+[2018.03.18-15.07.40:653][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.141347 seconds
+[2018.03.18-15.07.40:665][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.18-15.07.40:665][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.03.18-15.07.40:666][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.18-15.07.40:869][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.18-15.07.53:322][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.18-15.07.53:420][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.18-15.07.55:274][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.18-15.07.56:507][  0]SourceControl: Source control is disabled
+[2018.03.18-15.07.59:659][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.18-15.08.00:314][  0]LogOcInput: OculusInput pre-init called
+[2018.03.18-15.08.01:013][  0]LogEngine: Initializing Engine...
+[2018.03.18-15.08.01:085][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2018.03.18-15.08.02:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.18-15.08.02:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2018.03.18-15.08.02:617][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.18-15.08.02:661][  0]LogInit: XAudio2 using 'Headset Earphone (3- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-15.08.02:694][  0]LogInit: FAudioDevice initialized.
+[2018.03.18-15.08.02:956][  0]LogDerivedDataCache: Saved boot cache 0.26s 93MB C:/Users/Tyler/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.18-15.08.03:077][  0]LogInit: Texture streaming: Enabled
+[2018.03.18-15.08.03:490][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.18-15.08.04:295][  0]LogInit: Transaction tracking system initialized
+[2018.03.18-15.08.05:293][  0]BlueprintLog: New page: Editor Load
+[2018.03.18-15.08.08:139][  0]LocalizationService: Localization service is disabled
+[2018.03.18-15.08.10:255][  0]LogConsoleResponse: Display: 
+[2018.03.18-15.08.11:068][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.18-15.08.11:069][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.18-15.08.11:071][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.18-15.08.11:929][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/' took 0.03s
+[2018.03.18-15.08.14:059][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.18-15.08.14:073][  0]LightingResults: New page: Lighting Build
+[2018.03.18-15.08.14:187][  0]MapCheck: New page: Map Check
+[2018.03.18-15.08.14:188][  0]LightingResults: New page: Lighting Build
+[2018.03.18-15.08.15:495][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.18-15.08.15:511][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.18-15.08.15:567][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.18-15.08.15:683][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 115.853ms to complete.
+[2018.03.18-15.08.15:683][  0]LogFileHelpers: Loading map 'MainMenu' took 1.626
+[2018.03.18-15.08.16:290][  0]LogCollectionManager: Loaded 0 collections in 0.007311 seconds
+[2018.03.18-15.08.16:511][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Collections/' took 0.01s
+[2018.03.18-15.08.16:511][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Developers/Tyler/Collections/' took 0.02s
+[2018.03.18-15.08.16:511][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Collections/' took 0.01s
+[2018.03.18-15.08.16:511][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.18-15.08.16:536][  0]LogContentBrowser: Native class hierarchy populated in 0.0223 seconds. Added 2386 classes and 500 folders.
+[2018.03.18-15.08.16:731][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.03.18-15.08.17:495][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.03.18-15.08.17:644][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.03.18-15.08.17:813][  0]LogSlate: Took 0.023597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.18-15.08.17:839][  0]LogSlate: Took 0.011266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.18-15.08.17:855][  0]LogSlate: Took 0.010061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.18-15.08.17:999][  0]LogRenderer: Reallocating scene render targets to support 1528x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.18-15.08.18:512][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.03.18-15.08.18:512][  0]LogLoad: (Engine Initialization) Total time: 65.54 seconds
+[2018.03.18-15.08.18:512][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.18-15.08.18:514][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.18-15.08.18:995][  0]SourceControl: On branch master
+[2018.03.18-15.08.18:995][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.18-15.08.18:995][  0]SourceControl: Changes not staged for commit:
+[2018.03.18-15.08.18:996][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.03.18-15.08.18:996][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.18-15.08.18:996][  0]SourceControl: 	modified:   Development/Unreal Project/Content/Audio/BulletDestroy.uasset
+[2018.03.18-15.08.18:996][  0]SourceControl: 	modified:   Development/Unreal Project/Content/Blueprints/Cannon.uasset
+[2018.03.18-15.08.18:996][  0]SourceControl: 	modified:   Development/Unreal Project/Content/Blueprints/Target.uasset
+[2018.03.18-15.08.18:996][  0]SourceControl: 	modified:   Development/Unreal Project/Intermediate/CachedAssetRegistry.bin
+[2018.03.18-15.08.18:996][  0]SourceControl: 	modified:   Development/Unreal Project/Saved/Autosaves/Game/Audio/BulletDestroy_Auto3.uasset
+[2018.03.18-15.08.18:996][  0]SourceControl: 	modified:   Development/Unreal Project/Saved/Autosaves/Game/Blueprints/Cannon_Auto5.uasset
+[2018.03.18-15.08.18:997][  0]SourceControl: 	modified:   Development/Unreal Project/Saved/Autosaves/Game/Blueprints/Target_Auto4.uasset
+[2018.03.18-15.08.18:997][  0]SourceControl: 	modified:   Development/Unreal Project/Saved/Autosaves/PackageRestoreData.json
+[2018.03.18-15.08.18:997][  0]SourceControl: 	modified:   Development/Unreal Project/Saved/Config/Windows/Editor.ini
+[2018.03.18-15.08.18:997][  0]SourceControl: 	modified:   Development/Unreal Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.03.18-15.08.18:997][  0]SourceControl: 	modified:   Development/Unreal Project/Saved/Logs/Prototype_Group_11.log
+[2018.03.18-15.08.18:997][  0]SourceControl: Untracked files:
+[2018.03.18-15.08.18:997][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.18-15.08.18:997][  0]SourceControl: 	Development/Unreal Project/Saved/Autosaves/Game/Audio/Sound43_Auto5.uasset
+[2018.03.18-15.08.18:997][  0]SourceControl: 	Development/Unreal Project/Saved/Autosaves/Game/Audio/TargetDestroy_Auto4.uasset
+[2018.03.18-15.08.18:997][  0]SourceControl: 	Development/Unreal Project/Saved/Backup/BulletDestroy_2018-03-17-23-02-18.uasset
+[2018.03.18-15.08.18:998][  0]SourceControl: 	Development/Unreal Project/Saved/Backup/BulletDestroy_2018-03-17-23-31-25.uasset
+[2018.03.18-15.08.18:998][  0]SourceControl: 	Development/Unreal Project/Saved/Backup/Cannon_2018-03-17-23-23-38.uasset
+[2018.03.18-15.08.18:998][  0]SourceControl: 	Development/Unreal Project/Saved/Backup/Cannon_2018-03-17-23-31-25.uasset
+[2018.03.18-15.08.18:998][  0]SourceControl: 	Development/Unreal Project/Saved/Backup/Target_2018-03-17-23-13-26.uasset
+[2018.03.18-15.08.18:998][  0]SourceControl: 	Development/Unreal Project/Saved/Backup/Target_2018-03-17-23-31-25.uasset
+[2018.03.18-15.08.18:998][  0]SourceControl: 	Development/Unreal Project/Saved/Config/CrashReportClient/UE4CC-Windows-21E551564EBEA4307812C5A3BD223F65/
+[2018.03.18-15.08.18:998][  0]SourceControl: 	Development/Unreal Project/Saved/Logs/Prototype_Group_11-backup-2018.03.18-15.07.17.log
+[2018.03.18-15.08.18:998][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.03.18-15.08.19:002][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.18-15.08.20:463][  4]LogAssetRegistry: Asset discovery search completed in 44.9553 seconds
+[2018.03.18-15.08.20:470][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2018.03.18-15.08.20:471][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000504 seconds (updated 0 objects)
+[2018.03.18-15.08.23:511][ 13]LogSlate: Took 0.007829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.18-15.09.53:694][469]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.18-15.09.53:823][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-15.09.53:824][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-15.09.53:842][469]PIE: New page: PIE session: MainMenu (18 Mar 2018 15:09:53)
+[2018.03.18-15.09.53:843][469]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.03.18-15.09.53:850][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006331s)
+[2018.03.18-15.09.53:852][469]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.18-15.09.53:853][469]LogPlayLevel: PIE: World Init took: (0.003266s)
+[2018.03.18-15.09.53:855][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.011956s)
+[2018.03.18-15.09.53:906][469]LogInit: XAudio2 using 'Headset Earphone (3- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-15.09.53:929][469]LogInit: FAudioDevice initialized.
+[2018.03.18-15.09.54:020][469]LogLoad: Game class is 'BounceGamemode_C'
+[2018.03.18-15.09.54:044][469]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.18-15.09.54
+[2018.03.18-15.09.54:047][469]LogWorld: Bringing up level for play took: 0.004669
+[2018.03.18-15.09.54:333][469]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2018.03.18-15.09.54:385][469]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 1.474
+[2018.03.18-15.09.54:387][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-15.09.54:443][469]LogRenderer: Reallocating scene render targets to support 1528x996 Format 10 NumSamples 1 (Frame:1).
+[2018.03.18-15.09.58:638][551]LogNet: Browse: /Game/Levels/Level1
+[2018.03.18-15.09.58:639][551]LogLoad: LoadMap: /Game/Levels/Level1
+[2018.03.18-15.09.58:695][551]Cmd: MEM
+[2018.03.18-15.09.58:740][551]LogMemory: Platform Memory Stats for Windows
+[2018.03.18-15.09.58:740][551]LogMemory: Process Physical Memory: 760.60 MB used, 1027.10 MB peak
+[2018.03.18-15.09.58:740][551]LogMemory: Process Virtual Memory: 1627.30 MB used, 1662.33 MB peak
+[2018.03.18-15.09.58:740][551]LogMemory: Physical Memory: 3394.37 MB used,  649.95 MB free, 4044.32 MB total
+[2018.03.18-15.09.58:740][551]LogMemory: Virtual Memory: 2524.89 MB used,  649.95 MB free, 134217728.00 MB total
+[2018.03.18-15.09.58:740][551]LogMemory: 
+[2018.03.18-15.09.58:740][551]Allocator Stats for TBB: (not implemented)
+[2018.03.18-15.09.59:011][551]LogBlueprint: Warning: [Cannon] 'TimerImage' variable not found. Base class was probably changed.
+[2018.03.18-15.10.00:473][551]LogAIModule: Creating AISystem for world Level1
+[2018.03.18-15.10.00:474][551]LogLoad: Game class is 'BounceGamemode_C'
+[2018.03.18-15.10.00:530][551]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.18-15.10.00
+[2018.03.18-15.10.00:532][551]LogWorld: Bringing up level for play took: 0.056483
+[2018.03.18-15.10.00:538][551]LogLoad: Took 1.898598 seconds to LoadMap(/Game/Levels/Level1)
+[2018.03.18-15.11.02:892][941]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-15.11.02:930][941]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-15.57.23:196][360]LogSlate: Took 0.010070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.18-15.57.23:738][360]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Tyler/Desktop/TargetDestroy.wav)
+[2018.03.18-15.57.23:822][360]LogAudioDerivedData: Display: Building compressed audio format OGG wave TargetDestroy...
+[2018.03.18-15.57.23:963][360]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/TargetDestroy.TargetDestroy.
+[2018.03.18-15.57.31:975][127]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode
+	Bullet_C /Engine/Transient.World_0:PersistentLevel.Bullet_C_0
+	Function /Game/Blueprints/Bullet.Bullet_C:UserConstructionScript:007F
+[2018.03.18-15.57.34:214][248]LogSlate: Took 0.010230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.18-15.57.35:028][248]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0136 seconds. Added 113 classes and 0 folders.
+[2018.03.18-15.57.37:713][248]LogSlate: Took 0.007640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.18-15.57.38:437][249]LogSlate: Took 0.008568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.18-15.57.40:506][362]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.18-15.57.46:270][720]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.18-15.57.46:356][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-15.57.46:358][720]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.18-15.57.46:438][720]LogPlayLevel: [PlayLevel] Compiling Target before play...
+[2018.03.18-15.57.46:597][720]LogPlayLevel: [PlayLevel]   Compiling BounceGamemode as a dependent...
+[2018.03.18-15.57.47:082][720]LogPlayLevel: PlayLevel: Blueprint regeneration took 724 ms (2 blueprints)
+[2018.03.18-15.57.47:086][720]PIE: New page: PIE session: MainMenu (18 Mar 2018 15:57:47)
+[2018.03.18-15.57.47:089][720]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.03.18-15.57.47:100][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011002s)
+[2018.03.18-15.57.47:104][720]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.18-15.57.47:110][720]LogPlayLevel: PIE: World Init took: (0.009943s)
+[2018.03.18-15.57.47:111][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.023360s)
+[2018.03.18-15.57.47:179][720]LogInit: XAudio2 using 'Headset Earphone (3- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-15.57.47:200][720]LogInit: FAudioDevice initialized.
+[2018.03.18-15.57.47:272][720]LogLoad: Game class is 'BounceGamemode_C'
+[2018.03.18-15.57.47:292][720]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.18-15.57.47
+[2018.03.18-15.57.47:294][720]LogWorld: Bringing up level for play took: 0.002994
+[2018.03.18-15.57.47:307][720]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.18-15.57.47:366][720]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.454
+[2018.03.18-15.57.47:373][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-15.57.48:791][769]LogNet: Browse: /Game/Levels/Level1
+[2018.03.18-15.57.48:792][769]LogLoad: LoadMap: /Game/Levels/Level1
+[2018.03.18-15.57.48:873][769]Cmd: MEM
+[2018.03.18-15.57.48:942][769]LogMemory: Platform Memory Stats for Windows
+[2018.03.18-15.57.48:942][769]LogMemory: Process Physical Memory: 590.03 MB used, 1027.10 MB peak
+[2018.03.18-15.57.48:942][769]LogMemory: Process Virtual Memory: 2021.77 MB used, 2021.77 MB peak
+[2018.03.18-15.57.48:942][769]LogMemory: Physical Memory: 3654.71 MB used,  389.61 MB free, 4044.32 MB total
+[2018.03.18-15.57.48:943][769]LogMemory: Virtual Memory: 3043.05 MB used,  389.61 MB free, 134217728.00 MB total
+[2018.03.18-15.57.48:943][769]LogMemory: 
+[2018.03.18-15.57.48:943][769]Allocator Stats for TBB: (not implemented)
+[2018.03.18-15.57.50:594][769]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.820 s
+[2018.03.18-15.57.50:594][769]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.18-15.57.50:594][769]LogOutputDevice: Error: 
+[2018.03.18-15.57.50:594][769]LogOutputDevice: Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1315]
+[2018.03.18-15.57.50:594][769]LogOutputDevice: Error: 
+[2018.03.18-15.57.50:594][769]LogOutputDevice: Error: Stack: 
+[2018.03.18-15.57.50:594][769]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000031D13E36
+[2018.03.18-15.57.50:594][769]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000031A9C2D2
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000031AB4746
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x000000002415D5D9
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x000000002412C90D
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000312F0F67
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000315FB666
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000031611766
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000031610CB2
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000002615E10B
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000026116AE8
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000002617D89D
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000295BBF80
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000029E4D646
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor.exe!0x00000000EC54534A
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor.exe!0x00000000EC553970
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor.exe!0x00000000EC5539EA
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor.exe!0x00000000EC5602D9
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: UE4Editor.exe!0x00000000EC561C47
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: KERNEL32.DLL!0x000000006F601FE4
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: ntdll.dll!0x000000006F7EEFC1
+[2018.03.18-15.57.50:595][769]LogOutputDevice: Error: 
+[2018.03.18-15.57.50:605][769]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.18-15.57.51:688][769]LogStats:                    SendNewReport -  1.083 s
+[2018.03.18-15.57.51:688][769]LogStats:             FDebug::EnsureFailed -  1.915 s
+[2018.03.18-15.57.51:742][769]LogAIModule: Creating AISystem for world Level1
+[2018.03.18-15.57.51:742][769]LogLoad: Game class is 'BounceGamemode_C'
+[2018.03.18-15.57.51:792][769]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.18-15.57.51
+[2018.03.18-15.57.51:793][769]LogWorld: Bringing up level for play took: 0.048503
+[2018.03.18-15.57.51:798][769]LogLoad: Took 3.006076 seconds to LoadMap(/Game/Levels/Level1)
+[2018.03.18-15.58.16:809][973]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-15.58.16:862][973]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-15.58.42:469][112]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainMenu' took 0.053
+[2018.03.18-15.58.42:477][112]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Target] ([1] browsable assets)...
+[2018.03.18-15.58.42:477][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Target]
+[2018.03.18-15.58.43:045][112]LogSavePackage: Save=264.88ms
+[2018.03.18-15.58.43:045][112]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Target_Auto1CDAE7671407B793CFCB7E3BE9F52B854.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/Target_Auto1.uasset'
+[2018.03.18-15.58.43:049][112]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/Target_Auto1.uasset
+[2018.03.18-15.58.43:050][112]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/TargetDestroy] ([1] browsable assets)...
+[2018.03.18-15.58.43:063][112]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/TargetDestroy.TargetDestroy]
+[2018.03.18-15.58.43:063][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/TargetDestroy]
+[2018.03.18-15.58.43:083][112]LogSavePackage: Save=16.38ms
+[2018.03.18-15.58.43:083][112]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/TargetDestroy_Auto1E4EF8FFE475862878B4BFDAD0AA52223.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Audio/TargetDestroy_Auto1.uasset'
+[2018.03.18-15.58.43:085][112]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Audio/TargetDestroy_Auto1.uasset
+[2018.03.18-15.58.43:085][112]LogFileHelpers: Auto-saving content packages took 0.613
+[2018.03.18-16.09.39:434][515]LogAudioEditor: Performing atomic reimport of [C:/Users/Tyler/Desktop/TargetDestroy.wav]
+[2018.03.18-16.09.39:437][515]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Tyler/Desktop/TargetDestroy.wav)
+[2018.03.18-16.09.39:443][515]LogAudioEditor: -- imported successfully
+[2018.03.18-16.09.39:482][515]LogAudioDerivedData: Display: Building compressed audio format OGG wave TargetDestroy...
+[2018.03.18-16.09.39:604][515]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/TargetDestroy.TargetDestroy.
+[2018.03.18-16.09.42:089][783]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.18-16.09.42:165][783]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-16.09.42:165][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-16.09.42:167][783]PIE: New page: PIE session: MainMenu (18 Mar 2018 16:09:42)
+[2018.03.18-16.09.42:167][783]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.03.18-16.09.42:169][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001728s)
+[2018.03.18-16.09.42:169][783]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.18-16.09.42:170][783]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2018.03.18-16.09.42:170][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003048s)
+[2018.03.18-16.09.42:221][783]LogInit: XAudio2 using 'Headset Earphone (3- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-16.09.42:233][783]LogInit: FAudioDevice initialized.
+[2018.03.18-16.09.42:296][783]LogLoad: Game class is 'BounceGamemode_C'
+[2018.03.18-16.09.42:298][783]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.18-16.09.42
+[2018.03.18-16.09.42:298][783]LogWorld: Bringing up level for play took: 0.001063
+[2018.03.18-16.09.42:316][783]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.595
+[2018.03.18-16.09.42:317][783]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-16.09.43:258][856]LogNet: Browse: /Game/Levels/Level1
+[2018.03.18-16.09.43:258][856]LogLoad: LoadMap: /Game/Levels/Level1
+[2018.03.18-16.09.43:310][856]Cmd: MEM
+[2018.03.18-16.09.43:365][856]LogMemory: Platform Memory Stats for Windows
+[2018.03.18-16.09.43:365][856]LogMemory: Process Physical Memory: 583.82 MB used, 1027.10 MB peak
+[2018.03.18-16.09.43:365][856]LogMemory: Process Virtual Memory: 2070.66 MB used, 2165.13 MB peak
+[2018.03.18-16.09.43:365][856]LogMemory: Physical Memory: 3420.28 MB used,  624.04 MB free, 4044.32 MB total
+[2018.03.18-16.09.43:365][856]LogMemory: Virtual Memory: 3076.81 MB used,  624.04 MB free, 134217728.00 MB total
+[2018.03.18-16.09.43:365][856]LogMemory: 
+[2018.03.18-16.09.43:365][856]Allocator Stats for TBB: (not implemented)
+[2018.03.18-16.09.44:121][856]LogAIModule: Creating AISystem for world Level1
+[2018.03.18-16.09.44:121][856]LogLoad: Game class is 'BounceGamemode_C'
+[2018.03.18-16.09.44:166][856]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.18-16.09.44
+[2018.03.18-16.09.44:167][856]LogWorld: Bringing up level for play took: 0.044099
+[2018.03.18-16.09.44:169][856]LogLoad: Took 0.911701 seconds to LoadMap(/Game/Levels/Level1)
+[2018.03.18-16.15.37:203][ 49]LogNet: Browse: /Game/Levels/Level1
+[2018.03.18-16.15.37:204][ 49]LogLoad: LoadMap: /Game/Levels/Level1
+[2018.03.18-16.15.37:275][ 49]Cmd: MEM
+[2018.03.18-16.15.37:336][ 49]LogMemory: Platform Memory Stats for Windows
+[2018.03.18-16.15.37:337][ 49]LogMemory: Process Physical Memory: 261.30 MB used, 1027.10 MB peak
+[2018.03.18-16.15.37:337][ 49]LogMemory: Process Virtual Memory: 2098.34 MB used, 2187.31 MB peak
+[2018.03.18-16.15.37:337][ 49]LogMemory: Physical Memory: 2792.49 MB used,  1251.83 MB free, 4044.32 MB total
+[2018.03.18-16.15.37:337][ 49]LogMemory: Virtual Memory: 3110.20 MB used,  1251.83 MB free, 134217728.00 MB total
+[2018.03.18-16.15.37:337][ 49]LogMemory: 
+[2018.03.18-16.15.37:337][ 49]Allocator Stats for TBB: (not implemented)
+[2018.03.18-16.15.38:172][ 49]LogAIModule: Creating AISystem for world Level1
+[2018.03.18-16.15.38:173][ 49]LogLoad: Game class is 'BounceGamemode_C'
+[2018.03.18-16.15.38:218][ 49]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.18-16.15.38
+[2018.03.18-16.15.38:220][ 49]LogWorld: Bringing up level for play took: 0.045053
+[2018.03.18-16.15.38:225][ 49]LogLoad: Took 1.020860 seconds to LoadMap(/Game/Levels/Level1)
+[2018.03.18-16.16.33:791][706]LogNet: Browse: /Game/Levels/MainMenu
+[2018.03.18-16.16.33:792][706]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.03.18-16.16.33:866][706]Cmd: MEM
+[2018.03.18-16.16.33:928][706]LogMemory: Platform Memory Stats for Windows
+[2018.03.18-16.16.33:928][706]LogMemory: Process Physical Memory: 306.45 MB used, 1027.10 MB peak
+[2018.03.18-16.16.33:928][706]LogMemory: Process Virtual Memory: 2094.48 MB used, 2203.28 MB peak
+[2018.03.18-16.16.33:928][706]LogMemory: Physical Memory: 2806.68 MB used,  1237.64 MB free, 4044.32 MB total
+[2018.03.18-16.16.33:928][706]LogMemory: Virtual Memory: 3147.45 MB used,  1237.64 MB free, 134217728.00 MB total
+[2018.03.18-16.16.33:928][706]LogMemory: 
+[2018.03.18-16.16.33:928][706]Allocator Stats for TBB: (not implemented)
+[2018.03.18-16.16.33:928][706]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.03.18-16.16.33:931][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002860s)
+[2018.03.18-16.16.33:932][706]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.18-16.16.33:932][706]LogPlayLevel: PIE: World Init took: (0.001362s)
+[2018.03.18-16.16.33:933][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.004688s)
+[2018.03.18-16.16.33:933][706]LogLoad: Game class is 'BounceGamemode_C'
+[2018.03.18-16.16.33:936][706]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.18-16.16.33
+[2018.03.18-16.16.33:936][706]LogWorld: Bringing up level for play took: 0.002098
+[2018.03.18-16.16.33:936][706]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.18-16.16.33:947][706]LogLoad: Took 0.155233 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.03.18-16.39.35:973][918]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-16.39.36:209][918]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-16.39.38:486][995]LogAudioEditor: Performing atomic reimport of [C:/Users/Tyler/Desktop/TargetDestroy.wav]
+[2018.03.18-16.39.38:490][995]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Tyler/Desktop/TargetDestroy.wav)
+[2018.03.18-16.39.38:526][995]LogAudioEditor: -- imported successfully
+[2018.03.18-16.39.38:631][995]LogAudioDerivedData: Display: Building compressed audio format OGG wave TargetDestroy...
+[2018.03.18-16.39.42:492][290]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.18-16.39.42:617][290]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-16.39.42:619][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-16.39.42:634][290]PIE: New page: PIE session: MainMenu (18 Mar 2018 16:39:42)
+[2018.03.18-16.39.42:644][290]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.03.18-16.39.42:720][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075104s)
+[2018.03.18-16.39.42:749][290]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.18-16.39.42:761][290]LogPlayLevel: PIE: World Init took: (0.040976s)
+[2018.03.18-16.39.42:762][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.119830s)
+[2018.03.18-16.39.42:847][290]LogInit: XAudio2 using 'Headset Earphone (3- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.18-16.39.42:869][290]LogInit: FAudioDevice initialized.
+[2018.03.18-16.39.42:990][290]LogLoad: Game class is 'BounceGamemode_C'
+[2018.03.18-16.39.43:008][290]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.18-16.39.43
+[2018.03.18-16.39.43:014][290]LogWorld: Bringing up level for play took: 0.015013
+[2018.03.18-16.39.43:152][290]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.238
+[2018.03.18-16.39.43:156][290]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.18-16.39.44:124][336]LogNet: Browse: /Game/Levels/Level1
+[2018.03.18-16.39.44:124][336]LogLoad: LoadMap: /Game/Levels/Level1
+[2018.03.18-16.39.44:194][336]Cmd: MEM
+[2018.03.18-16.39.44:266][336]LogMemory: Platform Memory Stats for Windows
+[2018.03.18-16.39.44:267][336]LogMemory: Process Physical Memory: 278.82 MB used, 1027.10 MB peak
+[2018.03.18-16.39.44:267][336]LogMemory: Process Virtual Memory: 2093.08 MB used, 2203.28 MB peak
+[2018.03.18-16.39.44:267][336]LogMemory: Physical Memory: 3336.65 MB used,  707.67 MB free, 4044.32 MB total
+[2018.03.18-16.39.44:267][336]LogMemory: Virtual Memory: 3051.63 MB used,  707.67 MB free, 134217728.00 MB total
+[2018.03.18-16.39.44:267][336]LogMemory: 
+[2018.03.18-16.39.44:267][336]Allocator Stats for TBB: (not implemented)
+[2018.03.18-16.39.45:684][336]LogAIModule: Creating AISystem for world Level1
+[2018.03.18-16.39.45:685][336]LogLoad: Game class is 'BounceGamemode_C'
+[2018.03.18-16.39.45:756][336]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.18-16.39.45
+[2018.03.18-16.39.45:757][336]LogWorld: Bringing up level for play took: 0.070735
+[2018.03.18-16.39.45:763][336]LogLoad: Took 1.638976 seconds to LoadMap(/Game/Levels/Level1)
