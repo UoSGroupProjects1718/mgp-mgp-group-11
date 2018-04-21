@@ -1912,3 +1912,1156 @@ LogInit: Object subsystem initialized
 [2018.04.20-23.28.59:273][122]LogSavePackage: Save=56.45ms
 [2018.04.20-23.28.59:273][122]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/LevelSelectWidgetF75668A048766DF96ABA9388010A93B1.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/LevelSelectWidget.uasset'
 [2018.04.20-23.28.59:277][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/LevelSelectWidget.uasset
+[2018.04.20-23.31.20:949][467]LogSavePackage: Save=38.99ms
+[2018.04.20-23.31.20:949][467]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/LevelButtonWidgetDFBDE865440581352FF8E2B3E7554B67.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/LevelButtonWidget.uasset'
+[2018.04.20-23.31.20:953][467]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/LevelButtonWidget.uasset
+[2018.04.20-23.31.30:642][544]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.20-23.31.30:694][544]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.31.30:695][544]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.20-23.31.30:703][544]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.04.20-23.31.30:721][544]LogPlayLevel: [PlayLevel]   Compiling BackgroundWidget as a dependent...
+[2018.04.20-23.31.30:722][544]LogPlayLevel: [PlayLevel]   Compiling LevelButtonWidget as a dependent...
+[2018.04.20-23.31.30:728][544]LogPlayLevel: [PlayLevel]   Compiling LevelSelectWidget as a dependent...
+[2018.04.20-23.31.31:019][544]LogPlayLevel: PlayLevel: Blueprint regeneration took 324 ms (4 blueprints)
+[2018.04.20-23.31.31:020][544]PIE: New page: PIE session: MainMenu (21 Apr 2018 01:31:31)
+[2018.04.20-23.31.31:021][544]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.20-23.31.31:023][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001924s)
+[2018.04.20-23.31.31:023][544]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.20-23.31.31:024][544]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2018.04.20-23.31.31:024][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003395s)
+[2018.04.20-23.31.31:057][544]LogInit: XAudio2 using 'Headset Earphone (4- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.20-23.31.31:064][544]LogInit: FAudioDevice initialized.
+[2018.04.20-23.31.31:104][544]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.31.31:106][544]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-00.31.31
+[2018.04.20-23.31.31:106][544]LogWorld: Bringing up level for play took: 0.000925
+[2018.04.20-23.31.31:107][544]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.20-23.31.31:116][544]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_0
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.04.20-23.31.31:116][544]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.04.20-23.31.31:118][544]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.671
+[2018.04.20-23.31.31:119][544]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.31.45:528][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.31.45:562][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.31.45:589][788]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.04.20-23.33.02:160][460]LogEditorTransaction: Undo Edit Bottom
+[2018.04.20-23.33.02:341][468]LogEditorTransaction: Undo Edit Right
+[2018.04.20-23.33.02:559][478]LogEditorTransaction: Undo Changed Anchors
+[2018.04.20-23.34.48:728][840]LogSavePackage: Save=62.94ms
+[2018.04.20-23.34.48:728][840]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/LevelSelectWidget2152FD69453ED02BAF3D00B0B05BC781.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/LevelSelectWidget.uasset'
+[2018.04.20-23.34.48:735][840]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/LevelSelectWidget.uasset
+[2018.04.20-23.34.48:908][840]LogSavePackage: Save=94.23ms
+[2018.04.20-23.34.48:908][840]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/OptionsWidget7E1FD86C43AB908036B352AD55D7894D.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/OptionsWidget.uasset'
+[2018.04.20-23.34.48:913][840]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/OptionsWidget.uasset
+[2018.04.20-23.35.32:472][865]BlueprintLog: New page: Compile BounceSaveGame
+[2018.04.20-23.35.33:986][ 13]LogSlate: Took 0.005347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.04.20-23.35.38:271][521]BlueprintLog: New page: Compile BounceSaveGame
+[2018.04.20-23.35.38:317][521]LogClass: Warning: Type mismatch in UnlockedLevels of BounceSaveGame_C - Previous (BoolProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.04.20-23.36.37:144][876]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainMenu' took 0.032
+[2018.04.20-23.36.37:146][876]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BounceSaveGame] ([1] browsable assets)...
+[2018.04.20-23.36.37:146][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BounceSaveGame]
+[2018.04.20-23.36.37:230][876]LogSavePackage: Save=7.92ms
+[2018.04.20-23.36.37:230][876]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/BounceSaveGame_Auto4B5D6C1A34794BB7F9412BFA12AE5EE27.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/BounceSaveGame_Auto4.uasset'
+[2018.04.20-23.36.37:232][876]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/BounceSaveGame_Auto4.uasset
+[2018.04.20-23.36.37:233][876]LogFileHelpers: Auto-saving content packages took 0.088
+[2018.04.20-23.43.13:374][397]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.20-23.43.13:420][397]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.43.13:421][397]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.20-23.43.13:437][397]LogPlayLevel: [PlayLevel] Compiling BounceSaveGame before play...
+[2018.04.20-23.43.13:438][397]LogPlayLevel: [PlayLevel]   Compiling MainMenu as a dependent...
+[2018.04.20-23.43.13:450][397]LogPlayLevel: [PlayLevel]   Compiling LevelButtonWidget as a dependent...
+[2018.04.20-23.43.13:463][397]LogPlayLevel: [PlayLevel]   Compiling OptionsWidget as a dependent...
+[2018.04.20-23.43.13:679][397]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.04.20-23.43.13:691][397]LogPlayLevel: [PlayLevel]   Compiling BackgroundWidget as a dependent...
+[2018.04.20-23.43.13:691][397]LogPlayLevel: [PlayLevel]   Compiling LevelSelectWidget as a dependent...
+[2018.04.20-23.43.13:886][397]LogPlayLevel: PlayLevel: Blueprint regeneration took 465 ms (7 blueprints)
+[2018.04.20-23.43.13:886][397]PIE: New page: PIE session: MainMenu (21 Apr 2018 01:43:13)
+[2018.04.20-23.43.13:888][397]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.20-23.43.13:890][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002070s)
+[2018.04.20-23.43.13:891][397]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.20-23.43.13:892][397]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2018.04.20-23.43.13:892][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003836s)
+[2018.04.20-23.43.13:930][397]LogInit: XAudio2 using 'Headset Earphone (4- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.20-23.43.13:939][397]LogInit: FAudioDevice initialized.
+[2018.04.20-23.43.13:978][397]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.43.13:979][397]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-00.43.13
+[2018.04.20-23.43.13:980][397]LogWorld: Bringing up level for play took: 0.001225
+[2018.04.20-23.43.13:981][397]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.20-23.43.13:991][397]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_2
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.04.20-23.43.13:992][397]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.04.20-23.43.13:994][397]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 1.547
+[2018.04.20-23.43.13:995][397]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.43.18:221][889]LogNet: Browse: /Game/Levels/Tutorial1
+[2018.04.20-23.43.18:221][889]LogLoad: LoadMap: /Game/Levels/Tutorial1
+[2018.04.20-23.43.18:256][889]Cmd: MEM
+[2018.04.20-23.43.18:283][889]LogMemory: Platform Memory Stats for Windows
+[2018.04.20-23.43.18:283][889]LogMemory: Process Physical Memory: 1221.87 MB used, 1609.50 MB peak
+[2018.04.20-23.43.18:283][889]LogMemory: Process Virtual Memory: 3402.95 MB used, 3681.59 MB peak
+[2018.04.20-23.43.18:283][889]LogMemory: Physical Memory: 5243.26 MB used,  2901.13 MB free, 8144.39 MB total
+[2018.04.20-23.43.18:283][889]LogMemory: Virtual Memory: 4774.59 MB used,  2901.13 MB free, 134217728.00 MB total
+[2018.04.20-23.43.18:283][889]LogMemory: 
+[2018.04.20-23.43.18:283][889]Allocator Stats for TBB: (not implemented)
+[2018.04.20-23.43.18:524][889]LogAIModule: Creating AISystem for world Tutorial1
+[2018.04.20-23.43.18:524][889]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.43.18:554][889]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial1.Tutorial1 up for play (max tick rate 0) at 2018.04.21-00.43.18
+[2018.04.20-23.43.18:555][889]LogWorld: Bringing up level for play took: 0.029922
+[2018.04.20-23.43.18:557][889]LogLoad: Took 0.336331 seconds to LoadMap(/Game/Levels/Tutorial1)
+[2018.04.20-23.43.33:112][585]LogNet: Browse: /Game/Levels/Tutorial2
+[2018.04.20-23.43.33:112][585]LogLoad: LoadMap: /Game/Levels/Tutorial2
+[2018.04.20-23.43.33:142][585]Cmd: MEM
+[2018.04.20-23.43.33:166][585]LogMemory: Platform Memory Stats for Windows
+[2018.04.20-23.43.33:167][585]LogMemory: Process Physical Memory: 1258.21 MB used, 1609.50 MB peak
+[2018.04.20-23.43.33:167][585]LogMemory: Process Virtual Memory: 3291.45 MB used, 3681.59 MB peak
+[2018.04.20-23.43.33:167][585]LogMemory: Physical Memory: 5279.28 MB used,  2865.11 MB free, 8144.39 MB total
+[2018.04.20-23.43.33:167][585]LogMemory: Virtual Memory: 4658.28 MB used,  2865.11 MB free, 134217728.00 MB total
+[2018.04.20-23.43.33:167][585]LogMemory: 
+[2018.04.20-23.43.33:167][585]Allocator Stats for TBB: (not implemented)
+[2018.04.20-23.43.33:390][585]LogAIModule: Creating AISystem for world Tutorial2
+[2018.04.20-23.43.33:391][585]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.43.33:425][585]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial2.Tutorial2 up for play (max tick rate 0) at 2018.04.21-00.43.33
+[2018.04.20-23.43.33:426][585]LogWorld: Bringing up level for play took: 0.034022
+[2018.04.20-23.43.33:428][585]LogLoad: Took 0.316246 seconds to LoadMap(/Game/Levels/Tutorial2)
+[2018.04.20-23.43.34:690][730]LogNet: Browse: /Game/Levels/MainMenu
+[2018.04.20-23.43.34:690][730]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.04.20-23.43.34:726][730]Cmd: MEM
+[2018.04.20-23.43.34:758][730]LogMemory: Platform Memory Stats for Windows
+[2018.04.20-23.43.34:758][730]LogMemory: Process Physical Memory: 1278.74 MB used, 1609.50 MB peak
+[2018.04.20-23.43.34:758][730]LogMemory: Process Virtual Memory: 3383.52 MB used, 3681.59 MB peak
+[2018.04.20-23.43.34:759][730]LogMemory: Physical Memory: 5299.29 MB used,  2845.10 MB free, 8144.39 MB total
+[2018.04.20-23.43.34:759][730]LogMemory: Virtual Memory: 4728.15 MB used,  2845.10 MB free, 134217728.00 MB total
+[2018.04.20-23.43.34:759][730]LogMemory: 
+[2018.04.20-23.43.34:759][730]Allocator Stats for TBB: (not implemented)
+[2018.04.20-23.43.34:759][730]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.20-23.43.34:761][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001918s)
+[2018.04.20-23.43.34:762][730]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.20-23.43.34:762][730]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2018.04.20-23.43.34:762][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003245s)
+[2018.04.20-23.43.34:762][730]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.43.34:764][730]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-00.43.34
+[2018.04.20-23.43.34:764][730]LogWorld: Bringing up level for play took: 0.000845
+[2018.04.20-23.43.34:764][730]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.20-23.43.34:774][730]LogLoad: Took 0.083082 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.04.20-23.43.37:007][991]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.43.37:041][991]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.43.37:070][991]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.04.20-23.46.16:717][761]LogSavePackage: Save=52.47ms
+[2018.04.20-23.46.16:718][761]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/LevelButtonWidget952AF50D46C95610F449608D308876E4.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/LevelButtonWidget.uasset'
+[2018.04.20-23.46.16:725][761]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/LevelButtonWidget.uasset
+[2018.04.20-23.46.20:456][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton5
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:457][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton5
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:458][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton6
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:458][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton6
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:458][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton4
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:459][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton4
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:459][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton1
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:460][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton1
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:460][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton2
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:460][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton2
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:461][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton3
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:461][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton3
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:462][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton7
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:462][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton7
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:463][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton8
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:463][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton8
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:464][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton9
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:464][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton9
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:464][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton10
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:465][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton10
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:465][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton11
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:466][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton11
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.46.20:466][198]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton12
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0241
+[2018.04.20-23.46.20:467][198]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_10.WidgetTree_3139.LevelButton12
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0222
+[2018.04.20-23.48.28:937][850]BlueprintLog: New page: Compile GameOverScreenWidget
+[2018.04.20-23.48.30:360][  0]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.20-23.48.30:417][  0]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.48.30:417][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.20-23.48.30:417][  0]PIE: New page: PIE session: MainMenu (21 Apr 2018 01:48:30)
+[2018.04.20-23.48.30:421][  0]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.20-23.48.30:423][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001882s)
+[2018.04.20-23.48.30:424][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.20-23.48.30:424][  0]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2018.04.20-23.48.30:425][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003417s)
+[2018.04.20-23.48.30:461][  0]LogInit: XAudio2 using 'Headset Earphone (4- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.20-23.48.30:468][  0]LogInit: FAudioDevice initialized.
+[2018.04.20-23.48.30:518][  0]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.48.30:520][  0]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-00.48.30
+[2018.04.20-23.48.30:521][  0]LogWorld: Bringing up level for play took: 0.001685
+[2018.04.20-23.48.30:532][  0]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_2
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.04.20-23.48.30:532][  0]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.04.20-23.48.30:537][  0]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.09
+[2018.04.20-23.48.30:538][  0]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.48.31:437][ 83]LogNet: Browse: /Game/Levels/Tutorial1
+[2018.04.20-23.48.31:438][ 83]LogLoad: LoadMap: /Game/Levels/Tutorial1
+[2018.04.20-23.48.31:469][ 83]Cmd: MEM
+[2018.04.20-23.48.31:498][ 83]LogMemory: Platform Memory Stats for Windows
+[2018.04.20-23.48.31:499][ 83]LogMemory: Process Physical Memory: 1356.94 MB used, 1609.50 MB peak
+[2018.04.20-23.48.31:499][ 83]LogMemory: Process Virtual Memory: 3690.70 MB used, 3695.52 MB peak
+[2018.04.20-23.48.31:499][ 83]LogMemory: Physical Memory: 5305.29 MB used,  2839.10 MB free, 8144.39 MB total
+[2018.04.20-23.48.31:499][ 83]LogMemory: Virtual Memory: 5042.43 MB used,  2839.10 MB free, 134217728.00 MB total
+[2018.04.20-23.48.31:499][ 83]LogMemory: 
+[2018.04.20-23.48.31:499][ 83]Allocator Stats for TBB: (not implemented)
+[2018.04.20-23.48.31:708][ 83]LogAIModule: Creating AISystem for world Tutorial1
+[2018.04.20-23.48.31:708][ 83]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.48.31:739][ 83]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial1.Tutorial1 up for play (max tick rate 0) at 2018.04.21-00.48.31
+[2018.04.20-23.48.31:740][ 83]LogWorld: Bringing up level for play took: 0.030376
+[2018.04.20-23.48.31:742][ 83]LogLoad: Took 0.304365 seconds to LoadMap(/Game/Levels/Tutorial1)
+[2018.04.20-23.48.41:030][  1]LogNet: Browse: /Game/Levels/Tutorial2
+[2018.04.20-23.48.41:031][  1]LogLoad: LoadMap: /Game/Levels/Tutorial2
+[2018.04.20-23.48.41:062][  1]Cmd: MEM
+[2018.04.20-23.48.41:095][  1]LogMemory: Platform Memory Stats for Windows
+[2018.04.20-23.48.41:095][  1]LogMemory: Process Physical Memory: 1358.09 MB used, 1609.50 MB peak
+[2018.04.20-23.48.41:095][  1]LogMemory: Process Virtual Memory: 3683.09 MB used, 3785.39 MB peak
+[2018.04.20-23.48.41:095][  1]LogMemory: Physical Memory: 5310.57 MB used,  2833.82 MB free, 8144.39 MB total
+[2018.04.20-23.48.41:096][  1]LogMemory: Virtual Memory: 5047.25 MB used,  2833.82 MB free, 134217728.00 MB total
+[2018.04.20-23.48.41:096][  1]LogMemory: 
+[2018.04.20-23.48.41:096][  1]Allocator Stats for TBB: (not implemented)
+[2018.04.20-23.48.41:306][  1]LogAIModule: Creating AISystem for world Tutorial2
+[2018.04.20-23.48.41:306][  1]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.48.41:336][  1]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial2.Tutorial2 up for play (max tick rate 0) at 2018.04.21-00.48.41
+[2018.04.20-23.48.41:336][  1]LogWorld: Bringing up level for play took: 0.029577
+[2018.04.20-23.48.41:338][  1]LogLoad: Took 0.307693 seconds to LoadMap(/Game/Levels/Tutorial2)
+[2018.04.20-23.48.43:076][168]LogNet: Browse: /Game/Levels/MainMenu
+[2018.04.20-23.48.43:076][168]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.04.20-23.48.43:107][168]Cmd: MEM
+[2018.04.20-23.48.43:142][168]LogMemory: Platform Memory Stats for Windows
+[2018.04.20-23.48.43:142][168]LogMemory: Process Physical Memory: 1378.08 MB used, 1609.50 MB peak
+[2018.04.20-23.48.43:142][168]LogMemory: Process Virtual Memory: 3777.99 MB used, 3785.39 MB peak
+[2018.04.20-23.48.43:142][168]LogMemory: Physical Memory: 5322.86 MB used,  2821.53 MB free, 8144.39 MB total
+[2018.04.20-23.48.43:142][168]LogMemory: Virtual Memory: 5117.12 MB used,  2821.53 MB free, 134217728.00 MB total
+[2018.04.20-23.48.43:142][168]LogMemory: 
+[2018.04.20-23.48.43:142][168]Allocator Stats for TBB: (not implemented)
+[2018.04.20-23.48.43:142][168]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.20-23.48.43:145][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001927s)
+[2018.04.20-23.48.43:145][168]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.20-23.48.43:146][168]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2018.04.20-23.48.43:146][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003470s)
+[2018.04.20-23.48.43:146][168]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.48.43:147][168]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-00.48.43
+[2018.04.20-23.48.43:148][168]LogWorld: Bringing up level for play took: 0.000833
+[2018.04.20-23.48.43:148][168]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.20-23.48.43:158][168]LogLoad: Took 0.080996 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.04.20-23.48.46:657][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.48.46:702][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.48.46:733][531]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.04.20-23.48.47:240][583]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.20-23.48.47:286][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.48.47:287][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.20-23.48.47:287][583]PIE: New page: PIE session: MainMenu (21 Apr 2018 01:48:47)
+[2018.04.20-23.48.47:292][583]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.20-23.48.47:294][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001806s)
+[2018.04.20-23.48.47:295][583]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.20-23.48.47:295][583]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2018.04.20-23.48.47:296][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003262s)
+[2018.04.20-23.48.47:339][583]LogInit: XAudio2 using 'Headset Earphone (4- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.20-23.48.47:346][583]LogInit: FAudioDevice initialized.
+[2018.04.20-23.48.47:389][583]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.48.47:391][583]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-00.48.47
+[2018.04.20-23.48.47:391][583]LogWorld: Bringing up level for play took: 0.001025
+[2018.04.20-23.48.47:402][583]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_2
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.04.20-23.48.47:402][583]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.04.20-23.48.47:407][583]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.96
+[2018.04.20-23.48.47:408][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.48.49:922][824]LogNet: Browse: /Game/Levels/Tutorial2
+[2018.04.20-23.48.49:922][824]LogLoad: LoadMap: /Game/Levels/Tutorial2
+[2018.04.20-23.48.49:952][824]Cmd: MEM
+[2018.04.20-23.48.49:981][824]LogMemory: Platform Memory Stats for Windows
+[2018.04.20-23.48.49:981][824]LogMemory: Process Physical Memory: 1371.52 MB used, 1609.50 MB peak
+[2018.04.20-23.48.49:982][824]LogMemory: Process Virtual Memory: 3709.17 MB used, 3810.05 MB peak
+[2018.04.20-23.48.49:982][824]LogMemory: Physical Memory: 5322.54 MB used,  2821.85 MB free, 8144.39 MB total
+[2018.04.20-23.48.49:982][824]LogMemory: Virtual Memory: 5083.68 MB used,  2821.85 MB free, 134217728.00 MB total
+[2018.04.20-23.48.49:982][824]LogMemory: 
+[2018.04.20-23.48.49:982][824]Allocator Stats for TBB: (not implemented)
+[2018.04.20-23.48.50:192][824]LogAIModule: Creating AISystem for world Tutorial2
+[2018.04.20-23.48.50:193][824]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.48.50:224][824]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial2.Tutorial2 up for play (max tick rate 0) at 2018.04.21-00.48.50
+[2018.04.20-23.48.50:225][824]LogWorld: Bringing up level for play took: 0.031396
+[2018.04.20-23.48.50:228][824]LogLoad: Took 0.305902 seconds to LoadMap(/Game/Levels/Tutorial2)
+[2018.04.20-23.48.52:406][ 23]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.48.52:442][ 23]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.48.52:471][ 23]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.04.20-23.49.35:681][317]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainMenu' took 0.032
+[2018.04.20-23.49.35:683][317]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BounceSaveGame] ([1] browsable assets)...
+[2018.04.20-23.49.35:684][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BounceSaveGame]
+[2018.04.20-23.49.35:772][317]LogSavePackage: Save=9.89ms
+[2018.04.20-23.49.35:772][317]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/BounceSaveGame_Auto5A8011E7B467AB09656C9779C2FF80374.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/BounceSaveGame_Auto5.uasset'
+[2018.04.20-23.49.35:774][317]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/BounceSaveGame_Auto5.uasset
+[2018.04.20-23.49.35:775][317]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/GameOverScreenWidget] ([1] browsable assets)...
+[2018.04.20-23.49.35:775][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/GameOverScreenWidget]
+[2018.04.20-23.49.35:920][317]LogSavePackage: Save=68.22ms
+[2018.04.20-23.49.35:920][317]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/GameOverScreenWidget_Auto5C3A63E5145FD136A9D5752A43809B47A.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/Widgets/GameOverScreenWidget_Auto5.uasset'
+[2018.04.20-23.49.35:922][317]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/Widgets/GameOverScreenWidget_Auto5.uasset
+[2018.04.20-23.49.35:923][317]LogFileHelpers: Auto-saving content packages took 0.240
+[2018.04.20-23.53.28:581][326]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_262' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:585][326]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_719' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:590][326]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_721' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:603][327]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_723' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:607][327]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_725' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:619][328]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_727' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:622][328]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_729' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:626][328]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_731' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:637][329]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_733' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:640][329]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_735' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:644][329]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_737' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:654][330]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_739' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:658][330]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_741' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:662][330]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_743' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:672][331]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_745' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:677][331]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_747' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:687][332]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_749' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:692][332]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_751' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:702][333]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_753' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:706][333]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_755' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:710][333]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_757' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:722][334]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_759' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:725][334]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_761' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:729][334]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_763' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:740][335]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_765' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:743][335]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_767' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:747][335]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_769' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:758][336]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_771' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:762][336]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_773' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:773][337]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_775' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:776][337]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_777' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:780][337]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_779' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:790][338]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_781' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:794][338]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_783' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.53.28:808][339]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_785' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.20-23.54.39:620][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:620][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:620][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/HelpWidget.HelpWidget:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:621][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/HUDWidget.HUDWidget:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:621][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/PauseWidget.PauseWidget:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:621][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/GameOverScreenWidget.GameOverScreenWidget:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:622][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:OptionsWidget_C_12.WidgetTree_3377.CanvasPanel_0
+[2018.04.20-23.54.39:622][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/HUDWidget.SKEL_HUDWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:622][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/PauseWidget.SKEL_PauseWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:623][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:GameOverScreenWidget_C_11.WidgetTree_3376.CanvasPanel_0
+[2018.04.20-23.54.39:623][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/HUDWidget.HUDWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:623][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/PauseWidget.PauseWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:623][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:624][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:624][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/OptionsWidget.OptionsWidget:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:624][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BackgroundWidget.BackgroundWidget:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:624][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.CanvasPanel_0
+[2018.04.20-23.54.39:625][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:625][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/HelpWidget.HelpWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:625][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/OptionsWidget.OptionsWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:626][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:LevelButtonWidget_C_18.WidgetTree_3378.CanvasPanel_0
+[2018.04.20-23.54.39:626][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:OptionsWidget_C_13.WidgetTree_3379.CanvasPanel_0
+[2018.04.20-23.54.39:626][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton2.WidgetTree_3370.CanvasPanel_0
+[2018.04.20-23.54.39:627][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:627][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton3.WidgetTree_3369.CanvasPanel_0
+[2018.04.20-23.54.39:627][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton8.WidgetTree_3367.CanvasPanel_0
+[2018.04.20-23.54.39:628][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton1.WidgetTree_3371.CanvasPanel_0
+[2018.04.20-23.54.39:628][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton4.WidgetTree_3372.CanvasPanel_0
+[2018.04.20-23.54.39:628][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton6.WidgetTree_3373.CanvasPanel_0
+[2018.04.20-23.54.39:629][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton7.WidgetTree_3368.CanvasPanel_0
+[2018.04.20-23.54.39:629][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton10.WidgetTree_3365.CanvasPanel_0
+[2018.04.20-23.54.39:630][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:OptionsWidget_C_17.WidgetTree_3383.CanvasPanel_0
+[2018.04.20-23.54.39:630][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:OptionsWidget_C_16.WidgetTree_3382.CanvasPanel_0
+[2018.04.20-23.54.39:630][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:OptionsWidget_C_15.WidgetTree_3381.CanvasPanel_0
+[2018.04.20-23.54.39:631][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:OptionsWidget_C_14.WidgetTree_3380.CanvasPanel_0
+[2018.04.20-23.54.39:631][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:LevelButtonWidget_C_17.WidgetTree_3375.CanvasPanel_0
+[2018.04.20-23.54.39:632][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/GameOverScreenWidget.GameOverScreenWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:632][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton5.WidgetTree_3374.CanvasPanel_0
+[2018.04.20-23.54.39:632][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton9.WidgetTree_3366.CanvasPanel_0
+[2018.04.20-23.54.39:632][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton11.WidgetTree_3364.CanvasPanel_0
+[2018.04.20-23.54.39:633][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.LevelButton12.WidgetTree_3363.CanvasPanel_0
+[2018.04.20-23.54.39:633][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/Widgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/Widgets/BackgroundWidget.BackgroundWidget_C:WidgetTree.CanvasPanel_0
+[2018.04.20-23.54.39:633][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16 or CanvasPanelSlot /Game/Blueprints/Widgets/OptionsWidget.OptionsWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16
+[2018.04.20-23.54.39:634][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16 or CanvasPanelSlot /Engine/Transient.World_24:OptionsWidget_C_13.WidgetTree_3379.CanvasPanel_0.CanvasPanelSlot_16
+[2018.04.20-23.54.39:634][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16 or CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16
+[2018.04.20-23.54.39:634][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16 or CanvasPanelSlot /Game/Blueprints/Widgets/OptionsWidget.OptionsWidget_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16
+[2018.04.20-23.54.39:635][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16 or CanvasPanelSlot /Engine/Transient.World_24:OptionsWidget_C_16.WidgetTree_3382.CanvasPanel_0.CanvasPanelSlot_16
+[2018.04.20-23.54.39:635][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16 or CanvasPanelSlot /Engine/Transient.World_24:OptionsWidget_C_15.WidgetTree_3381.CanvasPanel_0.CanvasPanelSlot_16
+[2018.04.20-23.54.39:635][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16 or CanvasPanelSlot /Engine/Transient.World_24:OptionsWidget_C_17.WidgetTree_3383.CanvasPanel_0.CanvasPanelSlot_16
+[2018.04.20-23.54.39:635][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16 or CanvasPanelSlot /Engine/Transient.World_24:OptionsWidget_C_12.WidgetTree_3377.CanvasPanel_0.CanvasPanelSlot_16
+[2018.04.20-23.54.39:636][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16 or CanvasPanelSlot /Engine/Transient.World_24:OptionsWidget_C_14.WidgetTree_3380.CanvasPanel_0.CanvasPanelSlot_16
+[2018.04.20-23.54.39:636][113]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16 or CanvasPanelSlot /Engine/Transient.World_6:LevelSelectWidget_C_20.WidgetTree_3362.CanvasPanel_0.CanvasPanelSlot_16
+[2018.04.20-23.54.39:637][113]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/Widgets/LevelSelectWidget.LevelSelectWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_232).  Import failed...
+[2018.04.20-23.54.39:637][113]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_16''
+[2018.04.20-23.54.39:715][115]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/UMG/Editor/Transient.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/UMG/Editor/Transient.uasset' is outside repository
+[2018.04.20-23.56.52:213][514]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.20-23.56.52:277][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.56.52:278][514]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.20-23.56.52:289][514]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.04.20-23.56.52:309][514]LogPlayLevel: [PlayLevel]   Compiling BackgroundWidget as a dependent...
+[2018.04.20-23.56.52:310][514]LogPlayLevel: [PlayLevel]   Compiling LevelButtonWidget as a dependent...
+[2018.04.20-23.56.52:319][514]LogPlayLevel: [PlayLevel]   Compiling LevelSelectWidget as a dependent...
+[2018.04.20-23.56.52:534][514]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.04.20-23.56.52:548][514]LogPlayLevel: [PlayLevel]   Compiling BackgroundWidget as a dependent...
+[2018.04.20-23.56.52:548][514]LogPlayLevel: [PlayLevel]   Compiling OptionsWidget as a dependent...
+[2018.04.20-23.56.52:756][514]LogPlayLevel: PlayLevel: Blueprint regeneration took 478 ms (7 blueprints)
+[2018.04.20-23.56.52:756][514]PIE: New page: PIE session: MainMenu (21 Apr 2018 01:56:52)
+[2018.04.20-23.56.52:760][514]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.20-23.56.52:762][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001903s)
+[2018.04.20-23.56.52:763][514]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.20-23.56.52:763][514]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2018.04.20-23.56.52:764][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003502s)
+[2018.04.20-23.56.52:797][514]LogInit: XAudio2 using 'Headset Earphone (4- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.20-23.56.52:805][514]LogInit: FAudioDevice initialized.
+[2018.04.20-23.56.52:847][514]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.20-23.56.52:849][514]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-00.56.52
+[2018.04.20-23.56.52:849][514]LogWorld: Bringing up level for play took: 0.001529
+[2018.04.20-23.56.52:850][514]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.20-23.56.52:867][514]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_1
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.04.20-23.56.52:867][514]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.04.20-23.56.52:870][514]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.423
+[2018.04.20-23.56.52:870][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.56.58:085][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.56.58:119][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.20-23.56.58:150][ 95]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.04.21-00.00.07:871][159]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainMenu' took 0.037
+[2018.04.21-00.00.07:873][159]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/LevelButtonWidget] ([1] browsable assets)...
+[2018.04.21-00.00.07:874][159]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/LevelButtonWidget]
+[2018.04.21-00.00.08:003][159]LogSavePackage: Save=48.68ms
+[2018.04.21-00.00.08:003][159]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/LevelButtonWidget_Auto65871379A48CDF241F4C5059546BBD5B3.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/Widgets/LevelButtonWidget_Auto6.uasset'
+[2018.04.21-00.00.08:006][159]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/Widgets/LevelButtonWidget_Auto6.uasset
+[2018.04.21-00.00.08:007][159]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/OptionsWidget] ([1] browsable assets)...
+[2018.04.21-00.00.08:007][159]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/OptionsWidget]
+[2018.04.21-00.00.08:183][159]LogSavePackage: Save=97.08ms
+[2018.04.21-00.00.08:183][159]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/OptionsWidget_Auto6072E44754054855EA0EBB4A1729D3C46.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/Widgets/OptionsWidget_Auto6.uasset'
+[2018.04.21-00.00.08:185][159]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/Autosaves/Game/Blueprints/Widgets/OptionsWidget_Auto6.uasset
+[2018.04.21-00.00.08:185][159]LogFileHelpers: Auto-saving content packages took 0.313
+[2018.04.21-00.00.45:003][412]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.21-00.00.45:055][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.00.45:055][412]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.21-00.00.45:076][412]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.04.21-00.00.45:095][412]LogPlayLevel: [PlayLevel]   Compiling BackgroundWidget as a dependent...
+[2018.04.21-00.00.45:096][412]LogPlayLevel: [PlayLevel]   Compiling OptionsWidget as a dependent...
+[2018.04.21-00.00.45:295][412]LogPlayLevel: PlayLevel: Blueprint regeneration took 239 ms (3 blueprints)
+[2018.04.21-00.00.45:295][412]PIE: New page: PIE session: MainMenu (21 Apr 2018 02:00:45)
+[2018.04.21-00.00.45:297][412]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.00.45:299][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001834s)
+[2018.04.21-00.00.45:300][412]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.00.45:300][412]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2018.04.21-00.00.45:300][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003184s)
+[2018.04.21-00.00.45:333][412]LogInit: XAudio2 using 'Headset Earphone (4- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.21-00.00.45:340][412]LogInit: FAudioDevice initialized.
+[2018.04.21-00.00.45:380][412]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.00.45:382][412]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.00.45
+[2018.04.21-00.00.45:383][412]LogWorld: Bringing up level for play took: 0.001144
+[2018.04.21-00.00.45:383][412]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-00.00.45:394][412]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_0
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.04.21-00.00.45:395][412]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.04.21-00.00.45:400][412]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.953
+[2018.04.21-00.00.45:401][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.00.48:299][737]LogNet: Browse: /Game/Levels/MainMenu
+[2018.04.21-00.00.48:300][737]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.04.21-00.00.48:331][737]Cmd: MEM
+[2018.04.21-00.00.48:360][737]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.00.48:360][737]LogMemory: Process Physical Memory: 1292.72 MB used, 1609.50 MB peak
+[2018.04.21-00.00.48:360][737]LogMemory: Process Virtual Memory: 3726.13 MB used, 3810.05 MB peak
+[2018.04.21-00.00.48:360][737]LogMemory: Physical Memory: 5268.44 MB used,  2875.95 MB free, 8144.39 MB total
+[2018.04.21-00.00.48:360][737]LogMemory: Virtual Memory: 5087.62 MB used,  2875.95 MB free, 134217728.00 MB total
+[2018.04.21-00.00.48:361][737]LogMemory: 
+[2018.04.21-00.00.48:361][737]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.00.48:361][737]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.00.48:363][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001934s)
+[2018.04.21-00.00.48:364][737]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.00.48:364][737]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2018.04.21-00.00.48:364][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003540s)
+[2018.04.21-00.00.48:365][737]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.00.48:366][737]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.00.48
+[2018.04.21-00.00.48:366][737]LogWorld: Bringing up level for play took: 0.001097
+[2018.04.21-00.00.48:367][737]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-00.00.48:374][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:374][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton5
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:375][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:375][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton5
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:376][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:376][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:376][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton6
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:377][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:377][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton6
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:377][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:378][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:378][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton4
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:379][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:379][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton4
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:379][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:380][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:380][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton1
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:381][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:382][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton1
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:382][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:383][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:383][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton2
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:384][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:385][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton2
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:385][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:386][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:386][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton3
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:387][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:387][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton3
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:388][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:388][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:389][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton7
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:389][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:390][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton7
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:390][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:390][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:391][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton8
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:391][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:392][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton8
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:392][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:393][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:393][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton9
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:394][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:395][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton9
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:395][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:396][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:396][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton10
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:396][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:397][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton10
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:397][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:398][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:398][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton11
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:399][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:399][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton11
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:400][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:400][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:401][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton12
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.00.48:401][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:402][737]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.LevelSelectWidget.WidgetTree_3591.LevelButton12
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.00.48:402][737]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.00.48:403][737]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.00.48:403][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	OptionsWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.OptionsWidget
+	Function /Game/Blueprints/Widgets/OptionsWidget.OptionsWidget_C:ExecuteUbergraph_OptionsWidget:05D4
+[2018.04.21-00.00.48:404][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_OptionsWidget' from node: Set Is Checked in graph: EventGraph in object: OptionsWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:404][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	OptionsWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.OptionsWidget
+	Function /Game/Blueprints/Widgets/OptionsWidget.OptionsWidget_C:ExecuteUbergraph_OptionsWidget:0656
+[2018.04.21-00.00.48:405][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_OptionsWidget' from node: Set Is Checked in graph: EventGraph in object: OptionsWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:405][737]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	OptionsWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_2.WidgetTree_3588.OptionsWidget
+	Function /Game/Blueprints/Widgets/OptionsWidget.OptionsWidget_C:ExecuteUbergraph_OptionsWidget:06D8
+[2018.04.21-00.00.48:406][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_OptionsWidget' from node: Set Is Checked in graph: EventGraph in object: OptionsWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.00.48:407][737]LogLoad: Took 0.107074 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.04.21-00.01.19:386][691]LogNet: Browse: /Game/Levels/MainMenu
+[2018.04.21-00.01.19:386][691]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.04.21-00.01.19:420][691]Cmd: MEM
+[2018.04.21-00.01.19:454][691]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.01.19:454][691]LogMemory: Process Physical Memory: 1297.11 MB used, 1609.50 MB peak
+[2018.04.21-00.01.19:454][691]LogMemory: Process Virtual Memory: 3734.69 MB used, 3810.05 MB peak
+[2018.04.21-00.01.19:454][691]LogMemory: Physical Memory: 5313.95 MB used,  2830.44 MB free, 8144.39 MB total
+[2018.04.21-00.01.19:454][691]LogMemory: Virtual Memory: 5123.62 MB used,  2830.44 MB free, 134217728.00 MB total
+[2018.04.21-00.01.19:454][691]LogMemory: 
+[2018.04.21-00.01.19:454][691]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.01.19:455][691]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.01.19:457][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001990s)
+[2018.04.21-00.01.19:458][691]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.01.19:458][691]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2018.04.21-00.01.19:458][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003948s)
+[2018.04.21-00.01.19:459][691]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.01.19:460][691]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.01.19
+[2018.04.21-00.01.19:461][691]LogWorld: Bringing up level for play took: 0.000998
+[2018.04.21-00.01.19:461][691]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-00.01.19:468][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:468][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton5
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:469][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:469][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton5
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:470][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:470][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:471][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton6
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:472][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:472][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton6
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:472][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:473][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:473][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton4
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:474][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:474][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton4
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:475][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:475][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:475][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton1
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:476][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:476][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton1
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:477][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:477][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:478][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton2
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:478][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:479][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton2
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:479][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:480][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:480][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton3
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:481][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:481][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton3
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:482][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:482][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:482][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton7
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:483][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:483][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton7
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:484][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:484][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:484][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton8
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:485][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:486][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton8
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:486][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:486][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:487][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton9
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:487][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:488][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton9
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:489][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:489][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:490][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton10
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:491][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:491][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton10
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:492][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:492][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:493][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton11
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:493][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:494][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton11
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:494][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:495][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:495][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton12
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:03A9
+[2018.04.21-00.01.19:496][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:496][691]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.LevelSelectWidget.WidgetTree_3625.LevelButton12
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:038A
+[2018.04.21-00.01.19:497][691]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_LevelButtonWidget' from node: Branch in graph: EventGraph in object: LevelButtonWidget with description: Accessed None
+[2018.04.21-00.01.19:497][691]LogStreaming: Warning: Failed to read file '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/SaveGames/Options.sav' error.
+[2018.04.21-00.01.19:498][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	OptionsWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.OptionsWidget
+	Function /Game/Blueprints/Widgets/OptionsWidget.OptionsWidget_C:ExecuteUbergraph_OptionsWidget:05D4
+[2018.04.21-00.01.19:498][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_OptionsWidget' from node: Set Is Checked in graph: EventGraph in object: OptionsWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:499][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	OptionsWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.OptionsWidget
+	Function /Game/Blueprints/Widgets/OptionsWidget.OptionsWidget_C:ExecuteUbergraph_OptionsWidget:0656
+[2018.04.21-00.01.19:500][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_OptionsWidget' from node: Set Is Checked in graph: EventGraph in object: OptionsWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:501][691]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+	OptionsWidget_C /Engine/Transient.UnrealEdEngine_0:SettingsInstance_C_34.BackgroundWidget_C_3.WidgetTree_3622.OptionsWidget
+	Function /Game/Blueprints/Widgets/OptionsWidget.OptionsWidget_C:ExecuteUbergraph_OptionsWidget:06D8
+[2018.04.21-00.01.19:502][691]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game from function: 'ExecuteUbergraph_OptionsWidget' from node: Set Is Checked in graph: EventGraph in object: OptionsWidget with description: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Save_Game
+[2018.04.21-00.01.19:503][691]LogLoad: Took 0.116974 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.04.21-00.01.43:114][172]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.01.43:149][172]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.01.43:187][172]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.04.21-00.07.55:030][551]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.21-00.07.55:100][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.07.55:101][551]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.21-00.07.55:121][551]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.04.21-00.07.55:135][551]LogPlayLevel: [PlayLevel]   Compiling BackgroundWidget as a dependent...
+[2018.04.21-00.07.55:136][551]LogPlayLevel: [PlayLevel]   Compiling OptionsWidget as a dependent...
+[2018.04.21-00.07.55:170][551]LogBlueprint: Error: [Compiler OptionsWidget] Default value '' for  Unlocked Levels  is invalid: 'Array inputs (like 'Unlocked Levels') must have an input wired into them (try connecting a MakeArray node).'
+[2018.04.21-00.07.55:185][551]LogBlueprint: Warning: [Compiler OptionsWidget] [6061.73] Compile of OptionsWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 66 ms] (/Game/Blueprints/Widgets/OptionsWidget.OptionsWidget)
+[2018.04.21-00.07.55:331][551]LogPlayLevel: PlayLevel: Blueprint regeneration took 230 ms (3 blueprints)
+[2018.04.21-00.07.55:331][551]BlueprintLog: Blueprint OptionsWidget failed to compile
+[2018.04.21-00.08.36:313][144]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.21-00.08.36:362][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.08.36:363][144]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.21-00.08.36:385][144]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.04.21-00.08.36:399][144]LogPlayLevel: [PlayLevel]   Compiling BackgroundWidget as a dependent...
+[2018.04.21-00.08.36:399][144]LogPlayLevel: [PlayLevel]   Compiling OptionsWidget as a dependent...
+[2018.04.21-00.08.36:604][144]LogPlayLevel: PlayLevel: Blueprint regeneration took 241 ms (3 blueprints)
+[2018.04.21-00.08.36:604][144]PIE: New page: PIE session: MainMenu (21 Apr 2018 02:08:36)
+[2018.04.21-00.08.36:605][144]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.08.36:607][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001933s)
+[2018.04.21-00.08.36:608][144]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.08.36:608][144]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2018.04.21-00.08.36:609][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003804s)
+[2018.04.21-00.08.36:645][144]LogInit: XAudio2 using 'Headset Earphone (4- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.21-00.08.36:652][144]LogInit: FAudioDevice initialized.
+[2018.04.21-00.08.36:699][144]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.08.36:701][144]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.08.36
+[2018.04.21-00.08.36:701][144]LogWorld: Bringing up level for play took: 0.000960
+[2018.04.21-00.08.36:702][144]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-00.08.36:713][144]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_0
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.04.21-00.08.36:714][144]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.04.21-00.08.36:718][144]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.271
+[2018.04.21-00.08.36:719][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.08.38:225][307]LogNet: Browse: /Game/Levels/Tutorial1
+[2018.04.21-00.08.38:226][307]LogLoad: LoadMap: /Game/Levels/Tutorial1
+[2018.04.21-00.08.38:269][307]Cmd: MEM
+[2018.04.21-00.08.38:302][307]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.08.38:302][307]LogMemory: Process Physical Memory: 1331.61 MB used, 1609.50 MB peak
+[2018.04.21-00.08.38:302][307]LogMemory: Process Virtual Memory: 3882.72 MB used, 3882.75 MB peak
+[2018.04.21-00.08.38:302][307]LogMemory: Physical Memory: 5199.41 MB used,  2944.98 MB free, 8144.39 MB total
+[2018.04.21-00.08.38:302][307]LogMemory: Virtual Memory: 5238.87 MB used,  2944.98 MB free, 134217728.00 MB total
+[2018.04.21-00.08.38:303][307]LogMemory: 
+[2018.04.21-00.08.38:303][307]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.08.38:504][307]LogAIModule: Creating AISystem for world Tutorial1
+[2018.04.21-00.08.38:505][307]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.08.38:534][307]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial1.Tutorial1 up for play (max tick rate 0) at 2018.04.21-01.08.38
+[2018.04.21-00.08.38:535][307]LogWorld: Bringing up level for play took: 0.029374
+[2018.04.21-00.08.38:537][307]LogLoad: Took 0.311190 seconds to LoadMap(/Game/Levels/Tutorial1)
+[2018.04.21-00.08.54:566][  7]LogNet: Browse: /Game/Levels/Tutorial2
+[2018.04.21-00.08.54:567][  7]LogLoad: LoadMap: /Game/Levels/Tutorial2
+[2018.04.21-00.08.54:599][  7]Cmd: MEM
+[2018.04.21-00.08.54:626][  7]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.08.54:627][  7]LogMemory: Process Physical Memory: 1336.34 MB used, 1609.50 MB peak
+[2018.04.21-00.08.54:627][  7]LogMemory: Process Virtual Memory: 3867.83 MB used, 3977.27 MB peak
+[2018.04.21-00.08.54:627][  7]LogMemory: Physical Memory: 5201.38 MB used,  2943.01 MB free, 8144.39 MB total
+[2018.04.21-00.08.54:627][  7]LogMemory: Virtual Memory: 5264.56 MB used,  2943.01 MB free, 134217728.00 MB total
+[2018.04.21-00.08.54:627][  7]LogMemory: 
+[2018.04.21-00.08.54:627][  7]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.08.54:838][  7]LogAIModule: Creating AISystem for world Tutorial2
+[2018.04.21-00.08.54:839][  7]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.08.54:868][  7]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial2.Tutorial2 up for play (max tick rate 0) at 2018.04.21-01.08.54
+[2018.04.21-00.08.54:869][  7]LogWorld: Bringing up level for play took: 0.028972
+[2018.04.21-00.08.54:870][  7]LogLoad: Took 0.303424 seconds to LoadMap(/Game/Levels/Tutorial2)
+[2018.04.21-00.08.56:259][152]LogNet: Browse: /Game/Levels/MainMenu
+[2018.04.21-00.08.56:260][152]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.04.21-00.08.56:301][152]Cmd: MEM
+[2018.04.21-00.08.56:334][152]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.08.56:334][152]LogMemory: Process Physical Memory: 1356.04 MB used, 1609.50 MB peak
+[2018.04.21-00.08.56:334][152]LogMemory: Process Virtual Memory: 3972.04 MB used, 3977.27 MB peak
+[2018.04.21-00.08.56:334][152]LogMemory: Physical Memory: 5223.82 MB used,  2920.57 MB free, 8144.39 MB total
+[2018.04.21-00.08.56:334][152]LogMemory: Virtual Memory: 5325.68 MB used,  2920.57 MB free, 134217728.00 MB total
+[2018.04.21-00.08.56:334][152]LogMemory: 
+[2018.04.21-00.08.56:334][152]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.08.56:334][152]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.08.56:336][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001866s)
+[2018.04.21-00.08.56:338][152]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.08.56:338][152]LogPlayLevel: PIE: World Init took: (0.001552s)
+[2018.04.21-00.08.56:338][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003919s)
+[2018.04.21-00.08.56:339][152]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.08.56:340][152]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.08.56
+[2018.04.21-00.08.56:340][152]LogWorld: Bringing up level for play took: 0.000852
+[2018.04.21-00.08.56:341][152]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-00.08.56:350][152]LogLoad: Took 0.090619 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.04.21-00.09.12:861][  7]LogNet: Browse: /Game/Levels/Tutorial1
+[2018.04.21-00.09.12:861][  7]LogLoad: LoadMap: /Game/Levels/Tutorial1
+[2018.04.21-00.09.12:891][  7]Cmd: MEM
+[2018.04.21-00.09.12:921][  7]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.09.12:921][  7]LogMemory: Process Physical Memory: 1344.57 MB used, 1609.50 MB peak
+[2018.04.21-00.09.12:921][  7]LogMemory: Process Virtual Memory: 3877.89 MB used, 4004.10 MB peak
+[2018.04.21-00.09.12:922][  7]LogMemory: Physical Memory: 5206.35 MB used,  2938.04 MB free, 8144.39 MB total
+[2018.04.21-00.09.12:922][  7]LogMemory: Virtual Memory: 5272.12 MB used,  2938.04 MB free, 134217728.00 MB total
+[2018.04.21-00.09.12:922][  7]LogMemory: 
+[2018.04.21-00.09.12:922][  7]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.09.13:127][  7]LogAIModule: Creating AISystem for world Tutorial1
+[2018.04.21-00.09.13:127][  7]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.09.13:158][  7]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial1.Tutorial1 up for play (max tick rate 0) at 2018.04.21-01.09.13
+[2018.04.21-00.09.13:159][  7]LogWorld: Bringing up level for play took: 0.030446
+[2018.04.21-00.09.13:161][  7]LogLoad: Took 0.299114 seconds to LoadMap(/Game/Levels/Tutorial1)
+[2018.04.21-00.09.14:254][122]LogNet: Browse: /Game/Levels/MainMenu
+[2018.04.21-00.09.14:254][122]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.04.21-00.09.14:290][122]Cmd: MEM
+[2018.04.21-00.09.14:323][122]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.09.14:323][122]LogMemory: Process Physical Memory: 1364.73 MB used, 1609.50 MB peak
+[2018.04.21-00.09.14:323][122]LogMemory: Process Virtual Memory: 3973.63 MB used, 4004.10 MB peak
+[2018.04.21-00.09.14:323][122]LogMemory: Physical Memory: 5222.50 MB used,  2921.89 MB free, 8144.39 MB total
+[2018.04.21-00.09.14:323][122]LogMemory: Virtual Memory: 5329.06 MB used,  2921.89 MB free, 134217728.00 MB total
+[2018.04.21-00.09.14:323][122]LogMemory: 
+[2018.04.21-00.09.14:323][122]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.09.14:324][122]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.09.14:326][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001887s)
+[2018.04.21-00.09.14:326][122]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.09.14:327][122]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2018.04.21-00.09.14:327][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003216s)
+[2018.04.21-00.09.14:327][122]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.09.14:328][122]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.09.14
+[2018.04.21-00.09.14:329][122]LogWorld: Bringing up level for play took: 0.001081
+[2018.04.21-00.09.14:329][122]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-00.09.14:340][122]LogLoad: Took 0.085301 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.04.21-00.09.24:262][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.09.24:296][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.09.24:327][231]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.04.21-00.09.43:919][395]BlueprintLog: New page: Compile OptionsWidget
+[2018.04.21-00.10.18:409][237]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.21-00.10.18:460][237]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.10.18:460][237]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.21-00.10.18:480][237]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.04.21-00.10.18:493][237]LogPlayLevel: [PlayLevel]   Compiling BackgroundWidget as a dependent...
+[2018.04.21-00.10.18:494][237]LogPlayLevel: [PlayLevel]   Compiling OptionsWidget as a dependent...
+[2018.04.21-00.10.18:695][237]LogPlayLevel: PlayLevel: Blueprint regeneration took 234 ms (3 blueprints)
+[2018.04.21-00.10.18:695][237]PIE: New page: PIE session: MainMenu (21 Apr 2018 02:10:18)
+[2018.04.21-00.10.18:699][237]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.10.18:701][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001843s)
+[2018.04.21-00.10.18:702][237]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.10.18:702][237]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2018.04.21-00.10.18:702][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003326s)
+[2018.04.21-00.10.18:735][237]LogInit: XAudio2 using 'Headset Earphone (4- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.21-00.10.18:743][237]LogInit: FAudioDevice initialized.
+[2018.04.21-00.10.18:787][237]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.10.18:789][237]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.10.18
+[2018.04.21-00.10.18:790][237]LogWorld: Bringing up level for play took: 0.001664
+[2018.04.21-00.10.18:800][237]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_0
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.04.21-00.10.18:801][237]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.04.21-00.10.18:805][237]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.358
+[2018.04.21-00.10.18:806][237]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.10.23:387][704]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.10.23:457][704]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.10.23:487][704]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.04.21-00.10.24:069][765]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.21-00.10.24:115][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.10.24:115][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-00.10.24:116][765]PIE: New page: PIE session: MainMenu (21 Apr 2018 02:10:24)
+[2018.04.21-00.10.24:117][765]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.10.24:119][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001814s)
+[2018.04.21-00.10.24:119][765]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.10.24:120][765]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2018.04.21-00.10.24:120][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003220s)
+[2018.04.21-00.10.24:159][765]LogInit: XAudio2 using 'Headset Earphone (4- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.21-00.10.24:166][765]LogInit: FAudioDevice initialized.
+[2018.04.21-00.10.24:213][765]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.10.24:215][765]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.10.24
+[2018.04.21-00.10.24:215][765]LogWorld: Bringing up level for play took: 0.001088
+[2018.04.21-00.10.24:225][765]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_0
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.04.21-00.10.24:226][765]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.04.21-00.10.24:231][765]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.216
+[2018.04.21-00.10.24:232][765]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.10.27:869][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.10.27:903][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.10.27:931][142]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.04.21-00.10.41:577][675]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.21-00.10.41:627][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.10.41:628][675]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.21-00.10.41:650][675]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.04.21-00.10.41:664][675]LogPlayLevel: [PlayLevel]   Compiling BackgroundWidget as a dependent...
+[2018.04.21-00.10.41:665][675]LogPlayLevel: [PlayLevel]   Compiling OptionsWidget as a dependent...
+[2018.04.21-00.10.41:867][675]LogPlayLevel: PlayLevel: Blueprint regeneration took 239 ms (3 blueprints)
+[2018.04.21-00.10.41:868][675]PIE: New page: PIE session: MainMenu (21 Apr 2018 02:10:41)
+[2018.04.21-00.10.41:869][675]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.10.41:870][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001818s)
+[2018.04.21-00.10.41:871][675]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.10.41:871][675]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2018.04.21-00.10.41:872][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003171s)
+[2018.04.21-00.10.41:909][675]LogInit: XAudio2 using 'Headset Earphone (4- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.21-00.10.41:917][675]LogInit: FAudioDevice initialized.
+[2018.04.21-00.10.41:962][675]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.10.41:964][675]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.10.41
+[2018.04.21-00.10.41:965][675]LogWorld: Bringing up level for play took: 0.002015
+[2018.04.21-00.10.41:966][675]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-00.10.41:989][675]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_1
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.04.21-00.10.41:990][675]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.04.21-00.10.41:995][675]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.452
+[2018.04.21-00.10.41:996][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.10.43:678][859]LogNet: Browse: /Game/Levels/MainMenu
+[2018.04.21-00.10.43:678][859]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.04.21-00.10.43:707][859]Cmd: MEM
+[2018.04.21-00.10.43:737][859]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.10.43:737][859]LogMemory: Process Physical Memory: 1304.86 MB used, 1609.50 MB peak
+[2018.04.21-00.10.43:737][859]LogMemory: Process Virtual Memory: 3933.94 MB used, 4010.55 MB peak
+[2018.04.21-00.10.43:737][859]LogMemory: Physical Memory: 5169.74 MB used,  2974.65 MB free, 8144.39 MB total
+[2018.04.21-00.10.43:738][859]LogMemory: Virtual Memory: 5281.81 MB used,  2974.65 MB free, 134217728.00 MB total
+[2018.04.21-00.10.43:738][859]LogMemory: 
+[2018.04.21-00.10.43:738][859]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.10.43:738][859]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.10.43:740][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002053s)
+[2018.04.21-00.10.43:741][859]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.10.43:741][859]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2018.04.21-00.10.43:742][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003988s)
+[2018.04.21-00.10.43:742][859]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.10.43:744][859]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.10.43
+[2018.04.21-00.10.43:744][859]LogWorld: Bringing up level for play took: 0.001201
+[2018.04.21-00.10.43:745][859]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-00.10.43:754][859]LogLoad: Took 0.076260 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.04.21-00.10.44:938][992]LogNet: Browse: /Game/Levels/Tutorial1
+[2018.04.21-00.10.44:938][992]LogLoad: LoadMap: /Game/Levels/Tutorial1
+[2018.04.21-00.10.44:967][992]Cmd: MEM
+[2018.04.21-00.10.44:995][992]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.10.44:995][992]LogMemory: Process Physical Memory: 1304.87 MB used, 1609.50 MB peak
+[2018.04.21-00.10.44:995][992]LogMemory: Process Virtual Memory: 3989.46 MB used, 4010.55 MB peak
+[2018.04.21-00.10.44:995][992]LogMemory: Physical Memory: 5169.07 MB used,  2975.32 MB free, 8144.39 MB total
+[2018.04.21-00.10.44:995][992]LogMemory: Virtual Memory: 5337.81 MB used,  2975.32 MB free, 134217728.00 MB total
+[2018.04.21-00.10.44:995][992]LogMemory: 
+[2018.04.21-00.10.44:995][992]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.10.45:195][992]LogAIModule: Creating AISystem for world Tutorial1
+[2018.04.21-00.10.45:196][992]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.10.45:226][992]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial1.Tutorial1 up for play (max tick rate 0) at 2018.04.21-01.10.45
+[2018.04.21-00.10.45:227][992]LogWorld: Bringing up level for play took: 0.030319
+[2018.04.21-00.10.45:229][992]LogLoad: Took 0.290747 seconds to LoadMap(/Game/Levels/Tutorial1)
+[2018.04.21-00.10.54:447][979]LogNet: Browse: /Game/Levels/Tutorial2
+[2018.04.21-00.10.54:448][979]LogLoad: LoadMap: /Game/Levels/Tutorial2
+[2018.04.21-00.10.54:478][979]Cmd: MEM
+[2018.04.21-00.10.54:506][979]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.10.54:506][979]LogMemory: Process Physical Memory: 1307.10 MB used, 1609.50 MB peak
+[2018.04.21-00.10.54:506][979]LogMemory: Process Virtual Memory: 3917.70 MB used, 4035.21 MB peak
+[2018.04.21-00.10.54:506][979]LogMemory: Physical Memory: 5172.01 MB used,  2972.38 MB free, 8144.39 MB total
+[2018.04.21-00.10.54:506][979]LogMemory: Virtual Memory: 5316.50 MB used,  2972.38 MB free, 134217728.00 MB total
+[2018.04.21-00.10.54:506][979]LogMemory: 
+[2018.04.21-00.10.54:506][979]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.10.54:719][979]LogAIModule: Creating AISystem for world Tutorial2
+[2018.04.21-00.10.54:720][979]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.10.54:748][979]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial2.Tutorial2 up for play (max tick rate 0) at 2018.04.21-01.10.54
+[2018.04.21-00.10.54:749][979]LogWorld: Bringing up level for play took: 0.028752
+[2018.04.21-00.10.54:751][979]LogLoad: Took 0.303236 seconds to LoadMap(/Game/Levels/Tutorial2)
+[2018.04.21-00.10.56:087][116]LogNet: Browse: /Game/Levels/MainMenu
+[2018.04.21-00.10.56:087][116]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.04.21-00.10.56:127][116]Cmd: MEM
+[2018.04.21-00.10.56:160][116]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.10.56:160][116]LogMemory: Process Physical Memory: 1327.25 MB used, 1609.50 MB peak
+[2018.04.21-00.10.56:160][116]LogMemory: Process Virtual Memory: 4017.95 MB used, 4035.21 MB peak
+[2018.04.21-00.10.56:160][116]LogMemory: Physical Memory: 5195.11 MB used,  2949.28 MB free, 8144.39 MB total
+[2018.04.21-00.10.56:160][116]LogMemory: Virtual Memory: 5382.00 MB used,  2949.28 MB free, 134217728.00 MB total
+[2018.04.21-00.10.56:161][116]LogMemory: 
+[2018.04.21-00.10.56:161][116]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.10.56:161][116]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.10.56:163][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002015s)
+[2018.04.21-00.10.56:164][116]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.10.56:164][116]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2018.04.21-00.10.56:164][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003507s)
+[2018.04.21-00.10.56:164][116]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.10.56:166][116]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.10.56
+[2018.04.21-00.10.56:166][116]LogWorld: Bringing up level for play took: 0.001148
+[2018.04.21-00.10.56:167][116]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-00.10.56:177][116]LogLoad: Took 0.089982 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.04.21-00.11.00:425][586]LogNet: Browse: /Game/Levels/MainMenu
+[2018.04.21-00.11.00:426][586]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.04.21-00.11.00:453][586]Cmd: MEM
+[2018.04.21-00.11.00:480][586]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-00.11.00:480][586]LogMemory: Process Physical Memory: 1326.75 MB used, 1609.50 MB peak
+[2018.04.21-00.11.00:480][586]LogMemory: Process Virtual Memory: 3938.30 MB used, 4050.02 MB peak
+[2018.04.21-00.11.00:481][586]LogMemory: Physical Memory: 5195.46 MB used,  2948.93 MB free, 8144.39 MB total
+[2018.04.21-00.11.00:481][586]LogMemory: Virtual Memory: 5321.31 MB used,  2948.93 MB free, 134217728.00 MB total
+[2018.04.21-00.11.00:481][586]LogMemory: 
+[2018.04.21-00.11.00:481][586]Allocator Stats for TBB: (not implemented)
+[2018.04.21-00.11.00:481][586]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.04.21-00.11.00:483][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001841s)
+[2018.04.21-00.11.00:484][586]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.21-00.11.00:484][586]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2018.04.21-00.11.00:484][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003196s)
+[2018.04.21-00.11.00:484][586]LogLoad: Game class is 'BounceGamemode_C'
+[2018.04.21-00.11.00:486][586]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.21-01.11.00
+[2018.04.21-00.11.00:487][586]LogWorld: Bringing up level for play took: 0.001508
+[2018.04.21-00.11.00:487][586]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-00.11.00:497][586]LogLoad: Took 0.071555 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.04.21-00.11.12:943][ 16]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.11.12:978][ 16]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.21-00.11.13:004][ 16]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.04.21-00.11.14:808][194]LogSavePackage: Save=99.96ms
+[2018.04.21-00.11.14:808][194]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/OptionsWidget229AB80D404BAA5A70E70CB6F0EBA638.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/OptionsWidget.uasset'
+[2018.04.21-00.11.14:821][194]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/OptionsWidget.uasset
+[2018.04.21-00.11.16:381][352]LogSavePackage: Save=68.72ms
+[2018.04.21-00.11.16:382][352]LogSavePackage: Moving '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Saved/GameOverScreenWidget8950210746691CCCE44217917CF198D5.tmp' to '../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/GameOverScreenWidget.uasset'
+[2018.04.21-00.11.16:389][352]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Documents/GitHub/mgp-mgp-group-11/Development/Unreal Project/Content/Blueprints/Widgets/GameOverScreenWidget.uasset
+[2018.04.21-00.11.53:918][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton5
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:918][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton5
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:919][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton6
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:919][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton6
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:920][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton4
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:920][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton4
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:921][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton1
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:921][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton1
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:922][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton2
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:922][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton2
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:923][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton3
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:924][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton3
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:924][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton7
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:925][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton7
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:925][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton8
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:926][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton8
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:926][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton9
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:927][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton9
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:927][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton10
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:928][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton10
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:928][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton11
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:928][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton11
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.53:929][362]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton12
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.53:929][362]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_6:LevelSelectWidget_C_29.WidgetTree_4262.LevelButton12
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
+[2018.04.21-00.11.56:138][610]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode2
+	LevelButtonWidget_C /Engine/Transient.World_18:LevelButtonWidget_C_29
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0346
+[2018.04.21-00.11.56:139][610]LogScript: Warning: Accessed None
+	LevelButtonWidget_C /Engine/Transient.World_18:LevelButtonWidget_C_29
+	Function /Game/Blueprints/Widgets/LevelButtonWidget.LevelButtonWidget_C:ExecuteUbergraph_LevelButtonWidget:0327
