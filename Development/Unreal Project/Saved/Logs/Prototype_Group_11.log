@@ -1722,3 +1722,619 @@ LogInit: Object subsystem initialized
 [2018.05.02-09.02.13:213][674]LogSavePackage: Save=97.59ms
 [2018.05.02-09.02.13:213][674]LogSavePackage: Moving '../../../../../../Users/Games/Desktop/mgp-mgp-group-11/Development/Unreal Project/Saved/MainMenuD52EB7FC49853427BA29B1AF7CE0A98A.tmp' to '../../../../../../Users/Games/Desktop/mgp-mgp-group-11/Development/Unreal Project/Content/Levels/MainMenu.umap'
 [2018.05.02-09.02.13:216][674]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Games/Desktop/mgp-mgp-group-11/Development/Unreal Project/Content/Levels/MainMenu.umap
+[2018.05.02-09.16.07:356][709]Cmd: MAP LOAD FILE="../../../../../../Users/Games/Desktop/mgp-mgp-group-11/Development/Unreal Project/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.02-09.16.07:356][709]LightingResults: New page: Lighting Build
+[2018.05.02-09.16.07:357][709]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.05.02-09.16.07:357][709]MapCheck: New page: Map Check
+[2018.05.02-09.16.07:357][709]LightingResults: New page: Lighting Build
+[2018.05.02-09.16.07:520][709]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.16.07:523][709]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.02-09.16.07:597][709]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.02-09.16.07:685][709]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87.664ms to complete.
+[2018.05.02-09.16.07:685][709]LogFileHelpers: Loading map 'MainMenu' took 0.331
+[2018.05.02-09.16.52:138][406]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.02-09.16.52:169][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.02-09.16.52:169][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.02-09.16.52:169][406]PIE: New page: PIE session: MainMenu (May 2, 2018, 11:16:52 AM)
+[2018.05.02-09.16.52:170][406]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.16.52:172][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002193s)
+[2018.05.02-09.16.52:173][406]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.16.52:173][406]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2018.05.02-09.16.52:173][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003299s)
+[2018.05.02-09.16.52:195][406]LogInit: XAudio2 using 'EV2316W-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.02-09.16.52:203][406]LogInit: FAudioDevice initialized.
+[2018.05.02-09.16.52:255][406]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.16.52:256][406]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.16.52
+[2018.05.02-09.16.52:257][406]LogWorld: Bringing up level for play took: 0.001135
+[2018.05.02-09.16.52:266][406]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_1
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.05.02-09.16.52:267][406]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.05.02-09.16.52:273][406]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.166
+[2018.05.02-09.16.52:273][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.02-09.18.19:291][606]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel6
+[2018.05.02-09.18.19:291][606]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel6
+[2018.05.02-09.18.19:311][606]Cmd: MEM
+[2018.05.02-09.18.19:329][606]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.18.19:329][606]LogMemory: Process Physical Memory: 1434.62 MB used, 1541.52 MB peak
+[2018.05.02-09.18.19:329][606]LogMemory: Process Virtual Memory: 2229.05 MB used, 2353.63 MB peak
+[2018.05.02-09.18.19:329][606]LogMemory: Physical Memory: 7112.63 MB used,  9149.10 MB free, 16261.73 MB total
+[2018.05.02-09.18.19:329][606]LogMemory: Virtual Memory: 3235.75 MB used,  9149.10 MB free, 134217728.00 MB total
+[2018.05.02-09.18.19:329][606]LogMemory: 
+[2018.05.02-09.18.19:329][606]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.18.19:506][606]LogAIModule: Creating AISystem for world CasualLevel6
+[2018.05.02-09.18.19:506][606]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.18.19:540][606]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel6.CasualLevel6 up for play (max tick rate 0) at 2018.05.02-10.18.19
+[2018.05.02-09.18.19:541][606]LogWorld: Bringing up level for play took: 0.034031
+[2018.05.02-09.18.19:543][606]LogLoad: Took 0.252455 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel6)
+[2018.05.02-09.18.36:556][ 64]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel7
+[2018.05.02-09.18.36:557][ 64]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel7
+[2018.05.02-09.18.36:577][ 64]Cmd: MEM
+[2018.05.02-09.18.36:594][ 64]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.18.36:594][ 64]LogMemory: Process Physical Memory: 1444.51 MB used, 1541.52 MB peak
+[2018.05.02-09.18.36:594][ 64]LogMemory: Process Virtual Memory: 2236.52 MB used, 2353.63 MB peak
+[2018.05.02-09.18.36:594][ 64]LogMemory: Physical Memory: 7128.47 MB used,  9133.26 MB free, 16261.73 MB total
+[2018.05.02-09.18.36:594][ 64]LogMemory: Virtual Memory: 3235.75 MB used,  9133.26 MB free, 134217728.00 MB total
+[2018.05.02-09.18.36:594][ 64]LogMemory: 
+[2018.05.02-09.18.36:594][ 64]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.18.36:807][ 64]LogAIModule: Creating AISystem for world CasualLevel7
+[2018.05.02-09.18.36:808][ 64]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.18.36:841][ 64]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel7.CasualLevel7 up for play (max tick rate 0) at 2018.05.02-10.18.36
+[2018.05.02-09.18.36:842][ 64]LogWorld: Bringing up level for play took: 0.033703
+[2018.05.02-09.18.36:844][ 64]LogLoad: Took 0.287717 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel7)
+[2018.05.02-09.19.06:057][543]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel8
+[2018.05.02-09.19.06:058][543]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel8
+[2018.05.02-09.19.06:079][543]Cmd: MEM
+[2018.05.02-09.19.06:098][543]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.19.06:098][543]LogMemory: Process Physical Memory: 1440.42 MB used, 1541.52 MB peak
+[2018.05.02-09.19.06:098][543]LogMemory: Process Virtual Memory: 2232.80 MB used, 2353.63 MB peak
+[2018.05.02-09.19.06:099][543]LogMemory: Physical Memory: 7122.34 MB used,  9139.39 MB free, 16261.73 MB total
+[2018.05.02-09.19.06:099][543]LogMemory: Virtual Memory: 3219.75 MB used,  9139.39 MB free, 134217728.00 MB total
+[2018.05.02-09.19.06:099][543]LogMemory: 
+[2018.05.02-09.19.06:099][543]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.19.06:334][543]LogAIModule: Creating AISystem for world CasualLevel8
+[2018.05.02-09.19.06:334][543]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.19.06:376][543]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel8.CasualLevel8 up for play (max tick rate 0) at 2018.05.02-10.19.06
+[2018.05.02-09.19.06:377][543]LogWorld: Bringing up level for play took: 0.041858
+[2018.05.02-09.19.06:380][543]LogLoad: Took 0.321758 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel8)
+[2018.05.02-09.19.36:626][ 79]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel9
+[2018.05.02-09.19.36:626][ 79]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel9
+[2018.05.02-09.19.36:648][ 79]Cmd: MEM
+[2018.05.02-09.19.36:665][ 79]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.19.36:665][ 79]LogMemory: Process Physical Memory: 1441.73 MB used, 1541.52 MB peak
+[2018.05.02-09.19.36:665][ 79]LogMemory: Process Virtual Memory: 2235.42 MB used, 2353.63 MB peak
+[2018.05.02-09.19.36:665][ 79]LogMemory: Physical Memory: 7125.52 MB used,  9136.21 MB free, 16261.73 MB total
+[2018.05.02-09.19.36:665][ 79]LogMemory: Virtual Memory: 3230.69 MB used,  9136.21 MB free, 134217728.00 MB total
+[2018.05.02-09.19.36:665][ 79]LogMemory: 
+[2018.05.02-09.19.36:665][ 79]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.19.36:889][ 79]LogAIModule: Creating AISystem for world CasualLevel9
+[2018.05.02-09.19.36:890][ 79]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.19.36:931][ 79]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel9.CasualLevel9 up for play (max tick rate 0) at 2018.05.02-10.19.36
+[2018.05.02-09.19.36:931][ 79]LogWorld: Bringing up level for play took: 0.040840
+[2018.05.02-09.19.36:934][ 79]LogLoad: Took 0.307421 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel9)
+[2018.05.02-09.19.44:051][669]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.19.44:051][669]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.19.44:075][669]Cmd: MEM
+[2018.05.02-09.19.44:092][669]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.19.44:092][669]LogMemory: Process Physical Memory: 1440.14 MB used, 1541.52 MB peak
+[2018.05.02-09.19.44:092][669]LogMemory: Process Virtual Memory: 2239.58 MB used, 2353.63 MB peak
+[2018.05.02-09.19.44:092][669]LogMemory: Physical Memory: 7126.89 MB used,  9134.84 MB free, 16261.73 MB total
+[2018.05.02-09.19.44:092][669]LogMemory: Virtual Memory: 3222.69 MB used,  9134.84 MB free, 134217728.00 MB total
+[2018.05.02-09.19.44:092][669]LogMemory: 
+[2018.05.02-09.19.44:092][669]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.19.44:092][669]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.19.44:094][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002096s)
+[2018.05.02-09.19.44:095][669]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.19.44:095][669]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.05.02-09.19.44:095][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003082s)
+[2018.05.02-09.19.44:095][669]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.19.44:097][669]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.19.44
+[2018.05.02-09.19.44:097][669]LogWorld: Bringing up level for play took: 0.000960
+[2018.05.02-09.19.44:097][669]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.19.44:106][669]LogLoad: Took 0.054758 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.19.46:966][930]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel11
+[2018.05.02-09.19.46:966][930]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel11
+[2018.05.02-09.19.46:985][930]Cmd: MEM
+[2018.05.02-09.19.47:001][930]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.19.47:002][930]LogMemory: Process Physical Memory: 1440.14 MB used, 1541.52 MB peak
+[2018.05.02-09.19.47:002][930]LogMemory: Process Virtual Memory: 2233.33 MB used, 2353.63 MB peak
+[2018.05.02-09.19.47:002][930]LogMemory: Physical Memory: 7125.79 MB used,  9135.94 MB free, 16261.73 MB total
+[2018.05.02-09.19.47:002][930]LogMemory: Virtual Memory: 3218.69 MB used,  9135.94 MB free, 134217728.00 MB total
+[2018.05.02-09.19.47:002][930]LogMemory: 
+[2018.05.02-09.19.47:002][930]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.19.47:247][930]LogAIModule: Creating AISystem for world CasualLevel11
+[2018.05.02-09.19.47:247][930]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.19.47:294][930]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel11.CasualLevel11 up for play (max tick rate 0) at 2018.05.02-10.19.47
+[2018.05.02-09.19.47:295][930]LogWorld: Bringing up level for play took: 0.047384
+[2018.05.02-09.19.47:297][930]LogLoad: Took 0.331924 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel11)
+[2018.05.02-09.20.05:991][458]LogScriptCore: Warning: Script Msg: Attempted to access index 12 from array 'EasyLevels' of length 12 in '/Game/Blueprints/BounceGamemode.BounceGamemode_C'!
+[2018.05.02-09.20.06:105][458]LogPackageName: SearchForPackageOnDisk took   0.113s, but failed to resolve None.umap.
+[2018.05.02-09.20.06:105][458]LogScriptCore: Warning: Script Msg: Attempted to access index 12 from array 'EasyLevels' of length 12 in '/Game/Blueprints/BounceGamemode.BounceGamemode_C'!
+[2018.05.02-09.20.06:220][458]LogPackageName: SearchForPackageOnDisk took   0.109s, but failed to resolve None.umap.
+[2018.05.02-09.20.06:220][458]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.20.06:221][458]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Levels/MainMenu
+[2018.05.02-09.20.06:221][458]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/MainMenu'. Shutting down PIE.
+[2018.05.02-09.20.06:221][458]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/MainMenu'. Shutting down PIE.
+[2018.05.02-09.20.06:221][458]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Levels/MainMenu
+[2018.05.02-09.20.06:221][458]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/MainMenu'. Shutting down PIE.
+[2018.05.02-09.20.06:221][458]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/MainMenu'. Shutting down PIE.
+[2018.05.02-09.20.06:223][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.02-09.20.06:290][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.02-09.20.06:309][458]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.05.02-09.24.27:865][796]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.02-09.24.27:899][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.02-09.24.27:899][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.02-09.24.27:900][796]PIE: New page: PIE session: MainMenu (May 2, 2018, 11:24:27 AM)
+[2018.05.02-09.24.27:902][796]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.24.27:904][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002354s)
+[2018.05.02-09.24.27:905][796]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.24.27:905][796]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2018.05.02-09.24.27:905][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003630s)
+[2018.05.02-09.24.27:927][796]LogInit: XAudio2 using 'EV2316W-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.02-09.24.27:935][796]LogInit: FAudioDevice initialized.
+[2018.05.02-09.24.27:988][796]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.24.27:989][796]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.24.27
+[2018.05.02-09.24.27:990][796]LogWorld: Bringing up level for play took: 0.000975
+[2018.05.02-09.24.27:999][796]LogScript: Warning: Accessed None trying to read property Music
+	MainMenu_C /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.MainMenu_C_1
+	Function /Game/Levels/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0534
+[2018.05.02-09.24.27:999][796]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Music from function: 'ExecuteUbergraph_MainMenu' from node: Branch in graph: EventGraph in object: MainMenu with description: Accessed None trying to read property Music
+[2018.05.02-09.24.28:006][796]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.101
+[2018.05.02-09.24.28:007][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.02-09.27.09:717][466]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel3
+[2018.05.02-09.27.09:717][466]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel3
+[2018.05.02-09.27.09:739][466]Cmd: MEM
+[2018.05.02-09.27.09:755][466]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.09:755][466]LogMemory: Process Physical Memory: 1440.43 MB used, 1541.52 MB peak
+[2018.05.02-09.27.09:755][466]LogMemory: Process Virtual Memory: 2232.49 MB used, 2353.63 MB peak
+[2018.05.02-09.27.09:755][466]LogMemory: Physical Memory: 7193.34 MB used,  9068.39 MB free, 16261.73 MB total
+[2018.05.02-09.27.09:755][466]LogMemory: Virtual Memory: 3233.47 MB used,  9068.39 MB free, 134217728.00 MB total
+[2018.05.02-09.27.09:755][466]LogMemory: 
+[2018.05.02-09.27.09:755][466]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.09:999][466]LogAIModule: Creating AISystem for world CasualLevel3
+[2018.05.02-09.27.09:999][466]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.10:050][466]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel3.CasualLevel3 up for play (max tick rate 0) at 2018.05.02-10.27.10
+[2018.05.02-09.27.10:050][466]LogWorld: Bringing up level for play took: 0.050283
+[2018.05.02-09.27.10:053][466]LogLoad: Took 0.335739 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel3)
+[2018.05.02-09.27.41:335][ 55]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.27.41:335][ 55]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.27.41:361][ 55]Cmd: MEM
+[2018.05.02-09.27.41:378][ 55]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.41:378][ 55]LogMemory: Process Physical Memory: 1444.46 MB used, 1541.52 MB peak
+[2018.05.02-09.27.41:378][ 55]LogMemory: Process Virtual Memory: 2237.95 MB used, 2353.63 MB peak
+[2018.05.02-09.27.41:378][ 55]LogMemory: Physical Memory: 7042.25 MB used,  9219.48 MB free, 16261.73 MB total
+[2018.05.02-09.27.41:378][ 55]LogMemory: Virtual Memory: 3249.47 MB used,  9219.48 MB free, 134217728.00 MB total
+[2018.05.02-09.27.41:378][ 55]LogMemory: 
+[2018.05.02-09.27.41:378][ 55]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.41:378][ 55]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.27.41:380][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002204s)
+[2018.05.02-09.27.41:381][ 55]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.27.41:381][ 55]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2018.05.02-09.27.41:381][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003454s)
+[2018.05.02-09.27.41:381][ 55]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.41:383][ 55]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.27.41
+[2018.05.02-09.27.41:383][ 55]LogWorld: Bringing up level for play took: 0.001148
+[2018.05.02-09.27.41:384][ 55]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.27.41:393][ 55]LogLoad: Took 0.058093 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.27.42:428][150]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLeve10
+[2018.05.02-09.27.42:428][150]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLeve10
+[2018.05.02-09.27.42:447][150]Cmd: MEM
+[2018.05.02-09.27.42:462][150]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.42:462][150]LogMemory: Process Physical Memory: 1444.46 MB used, 1541.52 MB peak
+[2018.05.02-09.27.42:462][150]LogMemory: Process Virtual Memory: 2294.14 MB used, 2353.63 MB peak
+[2018.05.02-09.27.42:462][150]LogMemory: Physical Memory: 7042.26 MB used,  9219.47 MB free, 16261.73 MB total
+[2018.05.02-09.27.42:462][150]LogMemory: Virtual Memory: 3281.47 MB used,  9219.47 MB free, 134217728.00 MB total
+[2018.05.02-09.27.42:462][150]LogMemory: 
+[2018.05.02-09.27.42:462][150]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.42:699][150]LogAIModule: Creating AISystem for world CasualLeve10
+[2018.05.02-09.27.42:699][150]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.42:739][150]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLeve10.CasualLeve10 up for play (max tick rate 0) at 2018.05.02-10.27.42
+[2018.05.02-09.27.42:740][150]LogWorld: Bringing up level for play took: 0.039180
+[2018.05.02-09.27.42:742][150]LogLoad: Took 0.313291 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLeve10)
+[2018.05.02-09.27.44:133][275]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.27.44:134][275]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.27.44:155][275]Cmd: MEM
+[2018.05.02-09.27.44:171][275]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.44:171][275]LogMemory: Process Physical Memory: 1460.18 MB used, 1541.52 MB peak
+[2018.05.02-09.27.44:171][275]LogMemory: Process Virtual Memory: 2340.47 MB used, 2353.63 MB peak
+[2018.05.02-09.27.44:171][275]LogMemory: Physical Memory: 7058.01 MB used,  9203.72 MB free, 16261.73 MB total
+[2018.05.02-09.27.44:171][275]LogMemory: Virtual Memory: 3321.47 MB used,  9203.72 MB free, 134217728.00 MB total
+[2018.05.02-09.27.44:171][275]LogMemory: 
+[2018.05.02-09.27.44:171][275]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.44:171][275]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.27.44:173][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001965s)
+[2018.05.02-09.27.44:174][275]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.27.44:174][275]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2018.05.02-09.27.44:174][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.002931s)
+[2018.05.02-09.27.44:174][275]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.44:175][275]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.27.44
+[2018.05.02-09.27.44:176][275]LogWorld: Bringing up level for play took: 0.000749
+[2018.05.02-09.27.44:176][275]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.27.44:184][275]LogLoad: Took 0.050688 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.27.45:542][405]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel12
+[2018.05.02-09.27.45:542][405]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel12
+[2018.05.02-09.27.45:561][405]Cmd: MEM
+[2018.05.02-09.27.45:577][405]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.45:577][405]LogMemory: Process Physical Memory: 1460.18 MB used, 1541.52 MB peak
+[2018.05.02-09.27.45:577][405]LogMemory: Process Virtual Memory: 2338.86 MB used, 2353.63 MB peak
+[2018.05.02-09.27.45:577][405]LogMemory: Physical Memory: 7057.96 MB used,  9203.77 MB free, 16261.73 MB total
+[2018.05.02-09.27.45:577][405]LogMemory: Virtual Memory: 3321.47 MB used,  9203.77 MB free, 134217728.00 MB total
+[2018.05.02-09.27.45:577][405]LogMemory: 
+[2018.05.02-09.27.45:577][405]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.45:795][405]LogAIModule: Creating AISystem for world CasualLevel12
+[2018.05.02-09.27.45:796][405]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.45:835][405]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel12.CasualLevel12 up for play (max tick rate 0) at 2018.05.02-10.27.45
+[2018.05.02-09.27.45:835][405]LogWorld: Bringing up level for play took: 0.039079
+[2018.05.02-09.27.45:837][405]LogLoad: Took 0.295064 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel12)
+[2018.05.02-09.27.47:803][583]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.27.47:803][583]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.27.47:824][583]Cmd: MEM
+[2018.05.02-09.27.47:839][583]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.47:839][583]LogMemory: Process Physical Memory: 1475.26 MB used, 1541.52 MB peak
+[2018.05.02-09.27.47:839][583]LogMemory: Process Virtual Memory: 2340.52 MB used, 2353.63 MB peak
+[2018.05.02-09.27.47:839][583]LogMemory: Physical Memory: 7073.86 MB used,  9187.87 MB free, 16261.73 MB total
+[2018.05.02-09.27.47:839][583]LogMemory: Virtual Memory: 3337.47 MB used,  9187.87 MB free, 134217728.00 MB total
+[2018.05.02-09.27.47:839][583]LogMemory: 
+[2018.05.02-09.27.47:839][583]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.47:839][583]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.27.47:841][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002115s)
+[2018.05.02-09.27.47:842][583]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.27.47:842][583]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2018.05.02-09.27.47:843][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003319s)
+[2018.05.02-09.27.47:843][583]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.47:844][583]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.27.47
+[2018.05.02-09.27.47:844][583]LogWorld: Bringing up level for play took: 0.000809
+[2018.05.02-09.27.47:845][583]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.27.47:853][583]LogLoad: Took 0.049202 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.27.48:965][691]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLeve10
+[2018.05.02-09.27.48:965][691]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLeve10
+[2018.05.02-09.27.48:983][691]Cmd: MEM
+[2018.05.02-09.27.49:000][691]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.49:000][691]LogMemory: Process Physical Memory: 1471.57 MB used, 1541.52 MB peak
+[2018.05.02-09.27.49:000][691]LogMemory: Process Virtual Memory: 2308.24 MB used, 2353.63 MB peak
+[2018.05.02-09.27.49:000][691]LogMemory: Physical Memory: 7071.46 MB used,  9190.27 MB free, 16261.73 MB total
+[2018.05.02-09.27.49:000][691]LogMemory: Virtual Memory: 3329.47 MB used,  9190.27 MB free, 134217728.00 MB total
+[2018.05.02-09.27.49:000][691]LogMemory: 
+[2018.05.02-09.27.49:000][691]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.49:234][691]LogAIModule: Creating AISystem for world CasualLeve10
+[2018.05.02-09.27.49:234][691]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.49:273][691]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLeve10.CasualLeve10 up for play (max tick rate 0) at 2018.05.02-10.27.49
+[2018.05.02-09.27.49:274][691]LogWorld: Bringing up level for play took: 0.038905
+[2018.05.02-09.27.49:276][691]LogLoad: Took 0.311180 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLeve10)
+[2018.05.02-09.27.51:597][898]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.27.51:598][898]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.27.51:619][898]Cmd: MEM
+[2018.05.02-09.27.51:635][898]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.51:635][898]LogMemory: Process Physical Memory: 1481.21 MB used, 1541.52 MB peak
+[2018.05.02-09.27.51:635][898]LogMemory: Process Virtual Memory: 2338.92 MB used, 2353.63 MB peak
+[2018.05.02-09.27.51:635][898]LogMemory: Physical Memory: 7074.34 MB used,  9187.39 MB free, 16261.73 MB total
+[2018.05.02-09.27.51:635][898]LogMemory: Virtual Memory: 3345.47 MB used,  9187.39 MB free, 134217728.00 MB total
+[2018.05.02-09.27.51:635][898]LogMemory: 
+[2018.05.02-09.27.51:635][898]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.51:635][898]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.27.51:637][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001916s)
+[2018.05.02-09.27.51:638][898]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.27.51:638][898]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.05.02-09.27.51:638][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.002878s)
+[2018.05.02-09.27.51:638][898]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.51:639][898]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.27.51
+[2018.05.02-09.27.51:640][898]LogWorld: Bringing up level for play took: 0.000829
+[2018.05.02-09.27.51:640][898]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.27.51:649][898]LogLoad: Took 0.050723 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.27.52:816][ 11]LogNet: Browse: /Game/Levels/CasualLevel1
+[2018.05.02-09.27.52:816][ 11]LogLoad: LoadMap: /Game/Levels/CasualLevel1
+[2018.05.02-09.27.52:835][ 11]Cmd: MEM
+[2018.05.02-09.27.52:850][ 11]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.52:850][ 11]LogMemory: Process Physical Memory: 1467.54 MB used, 1541.52 MB peak
+[2018.05.02-09.27.52:850][ 11]LogMemory: Process Virtual Memory: 2322.63 MB used, 2353.63 MB peak
+[2018.05.02-09.27.52:850][ 11]LogMemory: Physical Memory: 7066.87 MB used,  9194.86 MB free, 16261.73 MB total
+[2018.05.02-09.27.52:850][ 11]LogMemory: Virtual Memory: 3345.47 MB used,  9194.86 MB free, 134217728.00 MB total
+[2018.05.02-09.27.52:850][ 11]LogMemory: 
+[2018.05.02-09.27.52:850][ 11]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.53:060][ 11]LogAIModule: Creating AISystem for world CasualLevel1
+[2018.05.02-09.27.53:061][ 11]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.53:102][ 11]LogWorld: Bringing World /Game/Levels/UEDPIE_0_CasualLevel1.CasualLevel1 up for play (max tick rate 0) at 2018.05.02-10.27.53
+[2018.05.02-09.27.53:103][ 11]LogWorld: Bringing up level for play took: 0.041205
+[2018.05.02-09.27.53:105][ 11]LogLoad: Took 0.288904 seconds to LoadMap(/Game/Levels/CasualLevel1)
+[2018.05.02-09.27.55:160][191]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.27.55:161][191]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.27.55:181][191]Cmd: MEM
+[2018.05.02-09.27.55:197][191]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.55:197][191]LogMemory: Process Physical Memory: 1479.77 MB used, 1541.52 MB peak
+[2018.05.02-09.27.55:197][191]LogMemory: Process Virtual Memory: 2346.79 MB used, 2353.63 MB peak
+[2018.05.02-09.27.55:197][191]LogMemory: Physical Memory: 7079.24 MB used,  9182.49 MB free, 16261.73 MB total
+[2018.05.02-09.27.55:197][191]LogMemory: Virtual Memory: 3361.47 MB used,  9182.49 MB free, 134217728.00 MB total
+[2018.05.02-09.27.55:197][191]LogMemory: 
+[2018.05.02-09.27.55:197][191]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.55:197][191]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.27.55:199][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001948s)
+[2018.05.02-09.27.55:199][191]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.27.55:200][191]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2018.05.02-09.27.55:200][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003005s)
+[2018.05.02-09.27.55:200][191]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.55:201][191]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.27.55
+[2018.05.02-09.27.55:202][191]LogWorld: Bringing up level for play took: 0.001058
+[2018.05.02-09.27.55:202][191]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.27.55:211][191]LogLoad: Took 0.049914 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.27.56:359][302]LogNet: Browse: /Game/Levels/CasualLevel2
+[2018.05.02-09.27.56:359][302]LogLoad: LoadMap: /Game/Levels/CasualLevel2
+[2018.05.02-09.27.56:377][302]Cmd: MEM
+[2018.05.02-09.27.56:393][302]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.56:393][302]LogMemory: Process Physical Memory: 1470.66 MB used, 1541.52 MB peak
+[2018.05.02-09.27.56:393][302]LogMemory: Process Virtual Memory: 2315.29 MB used, 2353.63 MB peak
+[2018.05.02-09.27.56:393][302]LogMemory: Physical Memory: 7071.74 MB used,  9189.99 MB free, 16261.73 MB total
+[2018.05.02-09.27.56:393][302]LogMemory: Virtual Memory: 3349.47 MB used,  9189.99 MB free, 134217728.00 MB total
+[2018.05.02-09.27.56:393][302]LogMemory: 
+[2018.05.02-09.27.56:393][302]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.56:605][302]LogAIModule: Creating AISystem for world CasualLevel2
+[2018.05.02-09.27.56:605][302]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.56:646][302]LogWorld: Bringing World /Game/Levels/UEDPIE_0_CasualLevel2.CasualLevel2 up for play (max tick rate 0) at 2018.05.02-10.27.56
+[2018.05.02-09.27.56:646][302]LogWorld: Bringing up level for play took: 0.040226
+[2018.05.02-09.27.56:648][302]LogLoad: Took 0.289337 seconds to LoadMap(/Game/Levels/CasualLevel2)
+[2018.05.02-09.27.59:256][532]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.27.59:257][532]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.27.59:278][532]Cmd: MEM
+[2018.05.02-09.27.59:294][532]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.27.59:294][532]LogMemory: Process Physical Memory: 1480.04 MB used, 1541.52 MB peak
+[2018.05.02-09.27.59:294][532]LogMemory: Process Virtual Memory: 2335.83 MB used, 2353.63 MB peak
+[2018.05.02-09.27.59:294][532]LogMemory: Physical Memory: 7073.94 MB used,  9187.79 MB free, 16261.73 MB total
+[2018.05.02-09.27.59:294][532]LogMemory: Virtual Memory: 3365.47 MB used,  9187.79 MB free, 134217728.00 MB total
+[2018.05.02-09.27.59:294][532]LogMemory: 
+[2018.05.02-09.27.59:294][532]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.27.59:294][532]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.27.59:296][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001924s)
+[2018.05.02-09.27.59:296][532]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.27.59:297][532]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2018.05.02-09.27.59:297][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.002899s)
+[2018.05.02-09.27.59:297][532]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.27.59:298][532]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.27.59
+[2018.05.02-09.27.59:298][532]LogWorld: Bringing up level for play took: 0.000761
+[2018.05.02-09.27.59:299][532]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.27.59:307][532]LogLoad: Took 0.050647 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.28.00:461][644]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel11
+[2018.05.02-09.28.00:462][644]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel11
+[2018.05.02-09.28.00:480][644]Cmd: MEM
+[2018.05.02-09.28.00:496][644]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.28.00:496][644]LogMemory: Process Physical Memory: 1470.43 MB used, 1541.52 MB peak
+[2018.05.02-09.28.00:496][644]LogMemory: Process Virtual Memory: 2313.59 MB used, 2353.63 MB peak
+[2018.05.02-09.28.00:496][644]LogMemory: Physical Memory: 7071.50 MB used,  9190.23 MB free, 16261.73 MB total
+[2018.05.02-09.28.00:496][644]LogMemory: Virtual Memory: 3365.47 MB used,  9190.23 MB free, 134217728.00 MB total
+[2018.05.02-09.28.00:496][644]LogMemory: 
+[2018.05.02-09.28.00:496][644]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.28.00:732][644]LogAIModule: Creating AISystem for world CasualLevel11
+[2018.05.02-09.28.00:733][644]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.28.00:780][644]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel11.CasualLevel11 up for play (max tick rate 0) at 2018.05.02-10.28.00
+[2018.05.02-09.28.00:781][644]LogWorld: Bringing up level for play took: 0.047242
+[2018.05.02-09.28.00:783][644]LogLoad: Took 0.321517 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel11)
+[2018.05.02-09.28.10:983][546]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.28.10:983][546]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.28.11:005][546]Cmd: MEM
+[2018.05.02-09.28.11:022][546]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.28.11:022][546]LogMemory: Process Physical Memory: 1452.31 MB used, 1541.52 MB peak
+[2018.05.02-09.28.11:022][546]LogMemory: Process Virtual Memory: 2237.14 MB used, 2353.63 MB peak
+[2018.05.02-09.28.11:022][546]LogMemory: Physical Memory: 7055.19 MB used,  9206.54 MB free, 16261.73 MB total
+[2018.05.02-09.28.11:022][546]LogMemory: Virtual Memory: 3317.47 MB used,  9206.54 MB free, 134217728.00 MB total
+[2018.05.02-09.28.11:022][546]LogMemory: 
+[2018.05.02-09.28.11:022][546]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.28.11:022][546]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.28.11:024][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002173s)
+[2018.05.02-09.28.11:025][546]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.28.11:025][546]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2018.05.02-09.28.11:025][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003173s)
+[2018.05.02-09.28.11:025][546]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.28.11:027][546]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.28.11
+[2018.05.02-09.28.11:027][546]LogWorld: Bringing up level for play took: 0.000878
+[2018.05.02-09.28.11:027][546]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.28.11:036][546]LogLoad: Took 0.052216 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.28.12:472][685]LogNet: Browse: /Game/Levels/CasualLevel2
+[2018.05.02-09.28.12:472][685]LogLoad: LoadMap: /Game/Levels/CasualLevel2
+[2018.05.02-09.28.12:491][685]Cmd: MEM
+[2018.05.02-09.28.12:507][685]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.28.12:507][685]LogMemory: Process Physical Memory: 1452.31 MB used, 1541.52 MB peak
+[2018.05.02-09.28.12:507][685]LogMemory: Process Virtual Memory: 2293.26 MB used, 2353.63 MB peak
+[2018.05.02-09.28.12:508][685]LogMemory: Physical Memory: 7053.05 MB used,  9208.68 MB free, 16261.73 MB total
+[2018.05.02-09.28.12:508][685]LogMemory: Virtual Memory: 3349.47 MB used,  9208.68 MB free, 134217728.00 MB total
+[2018.05.02-09.28.12:508][685]LogMemory: 
+[2018.05.02-09.28.12:508][685]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.28.12:717][685]LogAIModule: Creating AISystem for world CasualLevel2
+[2018.05.02-09.28.12:718][685]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.28.12:759][685]LogWorld: Bringing World /Game/Levels/UEDPIE_0_CasualLevel2.CasualLevel2 up for play (max tick rate 0) at 2018.05.02-10.28.12
+[2018.05.02-09.28.12:759][685]LogWorld: Bringing up level for play took: 0.040998
+[2018.05.02-09.28.12:762][685]LogLoad: Took 0.289580 seconds to LoadMap(/Game/Levels/CasualLevel2)
+[2018.05.02-09.29.04:226][948]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.29.04:226][948]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.29.04:248][948]Cmd: MEM
+[2018.05.02-09.29.04:265][948]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.29.04:265][948]LogMemory: Process Physical Memory: 1443.43 MB used, 1541.52 MB peak
+[2018.05.02-09.29.04:265][948]LogMemory: Process Virtual Memory: 2235.20 MB used, 2353.63 MB peak
+[2018.05.02-09.29.04:265][948]LogMemory: Physical Memory: 7041.82 MB used,  9219.91 MB free, 16261.73 MB total
+[2018.05.02-09.29.04:265][948]LogMemory: Virtual Memory: 3315.34 MB used,  9219.91 MB free, 134217728.00 MB total
+[2018.05.02-09.29.04:265][948]LogMemory: 
+[2018.05.02-09.29.04:265][948]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.29.04:265][948]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.29.04:267][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002017s)
+[2018.05.02-09.29.04:268][948]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.29.04:268][948]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2018.05.02-09.29.04:268][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.002986s)
+[2018.05.02-09.29.04:268][948]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.29.04:269][948]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.29.04
+[2018.05.02-09.29.04:270][948]LogWorld: Bringing up level for play took: 0.000871
+[2018.05.02-09.29.04:270][948]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.29.04:279][948]LogLoad: Took 0.052437 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.29.05:577][ 72]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel9
+[2018.05.02-09.29.05:577][ 72]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel9
+[2018.05.02-09.29.05:595][ 72]Cmd: MEM
+[2018.05.02-09.29.05:612][ 72]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.29.05:612][ 72]LogMemory: Process Physical Memory: 1443.43 MB used, 1541.52 MB peak
+[2018.05.02-09.29.05:612][ 72]LogMemory: Process Virtual Memory: 2291.26 MB used, 2353.63 MB peak
+[2018.05.02-09.29.05:612][ 72]LogMemory: Physical Memory: 7041.77 MB used,  9219.96 MB free, 16261.73 MB total
+[2018.05.02-09.29.05:612][ 72]LogMemory: Virtual Memory: 3347.34 MB used,  9219.96 MB free, 134217728.00 MB total
+[2018.05.02-09.29.05:612][ 72]LogMemory: 
+[2018.05.02-09.29.05:612][ 72]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.29.05:829][ 72]LogAIModule: Creating AISystem for world CasualLevel9
+[2018.05.02-09.29.05:829][ 72]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.29.05:867][ 72]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel9.CasualLevel9 up for play (max tick rate 0) at 2018.05.02-10.29.05
+[2018.05.02-09.29.05:868][ 72]LogWorld: Bringing up level for play took: 0.037561
+[2018.05.02-09.29.05:870][ 72]LogLoad: Took 0.292510 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel9)
+[2018.05.02-09.29.07:591][227]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.29.07:591][227]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.29.07:612][227]Cmd: MEM
+[2018.05.02-09.29.07:629][227]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.29.07:629][227]LogMemory: Process Physical Memory: 1459.07 MB used, 1541.52 MB peak
+[2018.05.02-09.29.07:629][227]LogMemory: Process Virtual Memory: 2329.90 MB used, 2353.63 MB peak
+[2018.05.02-09.29.07:629][227]LogMemory: Physical Memory: 7057.47 MB used,  9204.26 MB free, 16261.73 MB total
+[2018.05.02-09.29.07:629][227]LogMemory: Virtual Memory: 3363.34 MB used,  9204.26 MB free, 134217728.00 MB total
+[2018.05.02-09.29.07:629][227]LogMemory: 
+[2018.05.02-09.29.07:629][227]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.29.07:629][227]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.29.07:631][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001942s)
+[2018.05.02-09.29.07:631][227]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.29.07:631][227]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2018.05.02-09.29.07:632][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.002869s)
+[2018.05.02-09.29.07:632][227]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.29.07:633][227]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.29.07
+[2018.05.02-09.29.07:633][227]LogWorld: Bringing up level for play took: 0.000912
+[2018.05.02-09.29.07:634][227]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.29.07:643][227]LogLoad: Took 0.052031 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.29.08:740][334]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel4
+[2018.05.02-09.29.08:740][334]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel4
+[2018.05.02-09.29.08:759][334]Cmd: MEM
+[2018.05.02-09.29.08:775][334]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.29.08:775][334]LogMemory: Process Physical Memory: 1459.07 MB used, 1541.52 MB peak
+[2018.05.02-09.29.08:775][334]LogMemory: Process Virtual Memory: 2329.52 MB used, 2353.63 MB peak
+[2018.05.02-09.29.08:775][334]LogMemory: Physical Memory: 7057.30 MB used,  9204.43 MB free, 16261.73 MB total
+[2018.05.02-09.29.08:775][334]LogMemory: Virtual Memory: 3363.34 MB used,  9204.43 MB free, 134217728.00 MB total
+[2018.05.02-09.29.08:775][334]LogMemory: 
+[2018.05.02-09.29.08:775][334]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.29.09:003][334]LogAIModule: Creating AISystem for world CasualLevel4
+[2018.05.02-09.29.09:003][334]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.29.09:046][334]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel4.CasualLevel4 up for play (max tick rate 0) at 2018.05.02-10.29.09
+[2018.05.02-09.29.09:047][334]LogWorld: Bringing up level for play took: 0.042727
+[2018.05.02-09.29.09:049][334]LogLoad: Took 0.309116 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel4)
+[2018.05.02-09.29.12:918][680]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.29.12:918][680]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.29.12:940][680]Cmd: MEM
+[2018.05.02-09.29.12:956][680]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.29.12:956][680]LogMemory: Process Physical Memory: 1471.01 MB used, 1541.52 MB peak
+[2018.05.02-09.29.12:956][680]LogMemory: Process Virtual Memory: 2271.06 MB used, 2353.63 MB peak
+[2018.05.02-09.29.12:956][680]LogMemory: Physical Memory: 7069.14 MB used,  9192.59 MB free, 16261.73 MB total
+[2018.05.02-09.29.12:956][680]LogMemory: Virtual Memory: 3311.34 MB used,  9192.59 MB free, 134217728.00 MB total
+[2018.05.02-09.29.12:956][680]LogMemory: 
+[2018.05.02-09.29.12:956][680]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.29.12:956][680]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.29.12:958][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001965s)
+[2018.05.02-09.29.12:959][680]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.29.12:959][680]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2018.05.02-09.29.12:959][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.002979s)
+[2018.05.02-09.29.12:959][680]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.29.12:961][680]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.29.12
+[2018.05.02-09.29.12:961][680]LogWorld: Bringing up level for play took: 0.001116
+[2018.05.02-09.29.12:962][680]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.29.12:970][680]LogLoad: Took 0.052289 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.29.13:966][777]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel12
+[2018.05.02-09.29.13:967][777]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel12
+[2018.05.02-09.29.13:985][777]Cmd: MEM
+[2018.05.02-09.29.14:002][777]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.29.14:002][777]LogMemory: Process Physical Memory: 1470.89 MB used, 1541.52 MB peak
+[2018.05.02-09.29.14:002][777]LogMemory: Process Virtual Memory: 2307.49 MB used, 2353.63 MB peak
+[2018.05.02-09.29.14:002][777]LogMemory: Physical Memory: 7069.03 MB used,  9192.70 MB free, 16261.73 MB total
+[2018.05.02-09.29.14:002][777]LogMemory: Virtual Memory: 3343.34 MB used,  9192.70 MB free, 134217728.00 MB total
+[2018.05.02-09.29.14:002][777]LogMemory: 
+[2018.05.02-09.29.14:002][777]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.29.14:217][777]LogAIModule: Creating AISystem for world CasualLevel12
+[2018.05.02-09.29.14:217][777]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.29.14:256][777]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel12.CasualLevel12 up for play (max tick rate 0) at 2018.05.02-10.29.14
+[2018.05.02-09.29.14:257][777]LogWorld: Bringing up level for play took: 0.038599
+[2018.05.02-09.29.14:259][777]LogLoad: Took 0.291743 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel12)
+[2018.05.02-09.29.15:949][930]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.29.15:950][930]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.29.15:970][930]Cmd: MEM
+[2018.05.02-09.29.15:986][930]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.29.15:986][930]LogMemory: Process Physical Memory: 1482.73 MB used, 1541.52 MB peak
+[2018.05.02-09.29.15:986][930]LogMemory: Process Virtual Memory: 2343.48 MB used, 2353.63 MB peak
+[2018.05.02-09.29.15:986][930]LogMemory: Physical Memory: 7080.34 MB used,  9181.39 MB free, 16261.73 MB total
+[2018.05.02-09.29.15:986][930]LogMemory: Virtual Memory: 3359.34 MB used,  9181.39 MB free, 134217728.00 MB total
+[2018.05.02-09.29.15:987][930]LogMemory: 
+[2018.05.02-09.29.15:987][930]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.29.15:987][930]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.29.15:989][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002074s)
+[2018.05.02-09.29.15:989][930]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.29.15:989][930]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2018.05.02-09.29.15:990][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003071s)
+[2018.05.02-09.29.15:990][930]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.29.15:991][930]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.29.15
+[2018.05.02-09.29.15:991][930]LogWorld: Bringing up level for play took: 0.000764
+[2018.05.02-09.29.15:991][930]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.29.16:000][930]LogLoad: Took 0.050208 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.29.16:907][ 18]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel5
+[2018.05.02-09.29.16:907][ 18]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel5
+[2018.05.02-09.29.16:926][ 18]Cmd: MEM
+[2018.05.02-09.29.16:943][ 18]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.29.16:943][ 18]LogMemory: Process Physical Memory: 1482.73 MB used, 1541.52 MB peak
+[2018.05.02-09.29.16:943][ 18]LogMemory: Process Virtual Memory: 2343.48 MB used, 2353.63 MB peak
+[2018.05.02-09.29.16:943][ 18]LogMemory: Physical Memory: 7080.67 MB used,  9181.06 MB free, 16261.73 MB total
+[2018.05.02-09.29.16:943][ 18]LogMemory: Virtual Memory: 3359.34 MB used,  9181.06 MB free, 134217728.00 MB total
+[2018.05.02-09.29.16:943][ 18]LogMemory: 
+[2018.05.02-09.29.16:943][ 18]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.29.17:168][ 18]LogAIModule: Creating AISystem for world CasualLevel5
+[2018.05.02-09.29.17:169][ 18]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.29.17:211][ 18]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel5.CasualLevel5 up for play (max tick rate 0) at 2018.05.02-10.29.17
+[2018.05.02-09.29.17:211][ 18]LogWorld: Bringing up level for play took: 0.041895
+[2018.05.02-09.29.17:213][ 18]LogLoad: Took 0.306499 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel5)
+[2018.05.02-09.29.21:152][363]LogNet: Browse: /Game/Levels/MainMenu
+[2018.05.02-09.29.21:153][363]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.05.02-09.29.21:175][363]Cmd: MEM
+[2018.05.02-09.29.21:192][363]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.29.21:192][363]LogMemory: Process Physical Memory: 1479.84 MB used, 1541.52 MB peak
+[2018.05.02-09.29.21:192][363]LogMemory: Process Virtual Memory: 2277.77 MB used, 2353.63 MB peak
+[2018.05.02-09.29.21:192][363]LogMemory: Physical Memory: 7079.89 MB used,  9181.84 MB free, 16261.73 MB total
+[2018.05.02-09.29.21:192][363]LogMemory: Virtual Memory: 3327.34 MB used,  9181.84 MB free, 134217728.00 MB total
+[2018.05.02-09.29.21:192][363]LogMemory: 
+[2018.05.02-09.29.21:192][363]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.29.21:192][363]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.05.02-09.29.21:194][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002032s)
+[2018.05.02-09.29.21:195][363]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.02-09.29.21:195][363]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.05.02-09.29.21:195][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.003005s)
+[2018.05.02-09.29.21:195][363]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.29.21:196][363]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.02-10.29.21
+[2018.05.02-09.29.21:197][363]LogWorld: Bringing up level for play took: 0.000769
+[2018.05.02-09.29.21:198][363]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-09.29.21:206][363]LogLoad: Took 0.053288 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2018.05.02-09.29.22:553][493]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel4
+[2018.05.02-09.29.22:553][493]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel4
+[2018.05.02-09.29.22:571][493]Cmd: MEM
+[2018.05.02-09.29.22:588][493]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.29.22:588][493]LogMemory: Process Physical Memory: 1475.70 MB used, 1541.52 MB peak
+[2018.05.02-09.29.22:588][493]LogMemory: Process Virtual Memory: 2309.14 MB used, 2353.63 MB peak
+[2018.05.02-09.29.22:588][493]LogMemory: Physical Memory: 7075.74 MB used,  9185.99 MB free, 16261.73 MB total
+[2018.05.02-09.29.22:588][493]LogMemory: Virtual Memory: 3355.28 MB used,  9185.99 MB free, 134217728.00 MB total
+[2018.05.02-09.29.22:588][493]LogMemory: 
+[2018.05.02-09.29.22:588][493]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.29.22:816][493]LogAIModule: Creating AISystem for world CasualLevel4
+[2018.05.02-09.29.22:817][493]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.29.22:859][493]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel4.CasualLevel4 up for play (max tick rate 0) at 2018.05.02-10.29.22
+[2018.05.02-09.29.22:859][493]LogWorld: Bringing up level for play took: 0.042063
+[2018.05.02-09.29.22:862][493]LogLoad: Took 0.309320 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel4)
+[2018.05.02-09.30.30:411][188]LogNet: Browse: /Game/Levels/Casual_Levels/CasualLevel12
+[2018.05.02-09.30.30:412][188]LogLoad: LoadMap: /Game/Levels/Casual_Levels/CasualLevel12
+[2018.05.02-09.30.30:434][188]Cmd: MEM
+[2018.05.02-09.30.30:451][188]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-09.30.30:451][188]LogMemory: Process Physical Memory: 1448.90 MB used, 1541.52 MB peak
+[2018.05.02-09.30.30:451][188]LogMemory: Process Virtual Memory: 2246.77 MB used, 2353.63 MB peak
+[2018.05.02-09.30.30:451][188]LogMemory: Physical Memory: 7202.95 MB used,  9058.78 MB free, 16261.73 MB total
+[2018.05.02-09.30.30:451][188]LogMemory: Virtual Memory: 3327.34 MB used,  9058.78 MB free, 134217728.00 MB total
+[2018.05.02-09.30.30:451][188]LogMemory: 
+[2018.05.02-09.30.30:451][188]Allocator Stats for TBB: (not implemented)
+[2018.05.02-09.30.30:684][188]LogAIModule: Creating AISystem for world CasualLevel12
+[2018.05.02-09.30.30:684][188]LogLoad: Game class is 'BounceGamemode_C'
+[2018.05.02-09.30.30:726][188]LogWorld: Bringing World /Game/Levels/Casual_Levels/UEDPIE_0_CasualLevel12.CasualLevel12 up for play (max tick rate 0) at 2018.05.02-10.30.30
+[2018.05.02-09.30.30:727][188]LogWorld: Bringing up level for play took: 0.041852
+[2018.05.02-09.30.30:729][188]LogLoad: Took 0.317358 seconds to LoadMap(/Game/Levels/Casual_Levels/CasualLevel12)
+[2018.05.02-09.31.06:888][248]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.02-09.31.06:920][248]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.02-09.31.06:938][248]LogAudio: Warning: Audio Component is being destroyed without stopping looping sound 'Laser_Groove'
+[2018.05.02-09.37.12:796][563]SourceControl: Error: fatal: Could not switch to '/Game/': No such file or directory
+[2018.05.02-09.37.13:600][657]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBounce_Gamemode
+	Bullet_C /Engine/Transient.World_7:PersistentLevel.Bullet_C_0
+	Function /Game/Blueprints/Bullet.Bullet_C:UserConstructionScript:007F
